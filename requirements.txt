@@ -8,5 +8,5 @@ rasa
 ruamel.yaml
 aiohttp
 attrs
-
+yarl
 multidict
