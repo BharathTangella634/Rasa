@@ -1,0 +1,8 @@
+rasa-sdk
+pymongo
+google-generativeai
+pytz
+schedule
+smtplib
+email
+python-dotenv
