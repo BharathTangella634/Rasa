@@ -3,5 +3,4 @@ pymongo
 google-generativeai
 pytz
 schedule
-email
 python-dotenv
