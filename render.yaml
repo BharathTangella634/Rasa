@@ -1,7 +1,7 @@
-services:
-  - type: web
-    name: rasa-bot
-    env: python
-    runtime: python3.9
-    buildCommand: pip install -r requirements.txt
-    startCommand: rasa run --enable-api --cors "*"
+buildCommand: 
+  - pip install -r requirements.txt
+startCommand: 
+  - rasa run --enable-api --cors "*" --port 5005
+envVars:
+  - key: PYTHON_VERSION
+    value: "3.10"
