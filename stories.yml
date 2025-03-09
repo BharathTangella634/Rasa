@@ -1,0 +1,1245 @@
+version: "3.0"
+
+stories:
+- story: User asks for open to all events
+  steps:
+  - intent: open_to_all_events
+  - action: utter_open_to_all_events
+
+- story: User asks about BIS Quiz details
+  steps:
+  - intent: inquire_about_bis_quiz
+  - action: utter_bis_quiz_details
+
+- story: User asks about IPL Auction details
+  steps:
+  - intent: inquire_about_ipl_auction
+  - action: utter_ipl_auction_details
+
+- story: User asks about Free Fire details
+  steps:
+  - intent: inquire_about_free_fire
+  - action: utter_free_fire_details
+
+- story: User asks about Envision IAS Test details
+  steps:
+  - intent: inquire_about_envision_ias_test
+  - action: utter_envision_ias_test_details
+
+- story: User asks about Squid Zone details
+  steps:
+  - intent: inquire_about_squid_zone
+  - action: utter_squid_zone_details
+
+- story: User asks about the structure of BIS Quiz
+  steps:
+  - intent: event_structure
+  - action: utter_event_structure
+
+- story: User asks about the structure of IPL Auction
+  steps:
+  - intent: event_structure
+  - action: utter_event_structure
+
+- story: User asks about the structure of Free Fire
+  steps:
+  - intent: event_structure
+  - action: utter_event_structure
+
+- story: User asks about the structure of Envision IAS Test
+  steps:
+  - intent: event_structure
+  - action: utter_event_structure
+
+- story: User asks about the structure of Squid Zone
+  steps:
+  - intent: event_structure
+  - action: utter_event_structure
+
+- story: User asks about the rules of BIS Quiz
+  steps:
+  - intent: event_rules
+  - action: utter_event_rules
+
+- story: User asks about the rules of IPL Auction
+  steps:
+  - intent: event_rules
+  - action: utter_event_rules
+
+- story: User asks about the rules of Free Fire
+  steps:
+  - intent: event_rules
+  - action: utter_event_rules
+
+- story: User asks about the rules of Envision IAS Test
+  steps:
+  - intent: event_rules
+  - action: utter_event_rules
+
+- story: User asks about the rules of Squid Zone
+  steps:
+  - intent: event_rules
+  - action: utter_event_rules
+
+- story: User asks for the contact details of an event
+  steps:
+  - intent: event_contact
+  - action: utter_event_contact
+
+- story: User asks for event timeline
+  steps:
+  - intent: event_timeline
+  - action: utter_event_timeline
+
+- story: User asks for the list of Chemical events
+  steps:
+  - intent: list_chemical_events
+  - action: utter_list_chemical_events
+
+- story: Chem AI Quest Info
+  steps:
+    - intent: chem_ai_quest_info
+    - action: utter_chem_ai_quest_info
+
+- story: Chem AI Quest Rules
+  steps:
+    - intent: chem_ai_quest_rules
+    - action: utter_chem_ai_quest_rules
+
+- story: Chem AI Quest Structure
+  steps:
+    - intent: chem_ai_quest_structure
+    - action: utter_chem_ai_quest_structure
+
+- story: Chem AI Quest Timeline
+  steps:
+    - intent: chem_ai_quest_timeline
+    - action: utter_chem_ai_quest_timeline
+
+- story: Visionary Young Info
+  steps:
+    - intent: visionary_young_info
+    - action: utter_visionary_young_info
+
+- story: Visionary Young Rules
+  steps:
+    - intent: visionary_young_rules
+    - action: utter_visionary_young_rules
+
+- story: Visionary Young Structure
+  steps:
+    - intent: visionary_young_structure
+    - action: utter_visionary_young_structure
+
+- story: Visionary Young Timeline
+  steps:
+    - intent: visionary_young_timeline
+    - action: utter_visionary_young_timeline
+
+- story: Alchemy Empire Info
+  steps:
+    - intent: alchemy_empire_info
+    - action: utter_alchemy_empire_info
+
+- story: Alchemy Empire Rules
+  steps:
+    - intent: alchemy_empire_rules
+    - action: utter_alchemy_empire_rules
+
+- story: Alchemy Empire Structure
+  steps:
+    - intent: alchemy_empire_structure
+    - action: utter_alchemy_empire_structure
+
+- story: Alchemy Empire Timeline
+  steps:
+    - intent: alchemy_empire_timeline
+    - action: utter_alchemy_empire_timeline
+
+- story: Final Key Info
+  steps:
+    - intent: final_key_info
+    - action: utter_final_key_info
+
+- story: Final Key Rules
+  steps:
+    - intent: final_key_rules
+    - action: utter_final_key_rules
+
+- story: Final Key Structure
+  steps:
+    - intent: final_key_structure
+    - action: utter_final_key_structure
+
+- story: Final Key Timeline
+  steps:
+    - intent: final_key_timeline
+    - action: utter_final_key_timeline
+
+
+
+- story: User asks for the list of CSE events
+  steps:
+  - intent: list_cse_events
+  - action: utter_list_cse_events
+
+- story: User asks about AlgoHustle event
+  steps:
+  - intent: algohustle_about
+  - action: utter_algohustle_about
+
+- story: User asks for AlgoHustle structure
+  steps:
+  - intent: algohustle_structure
+  - action: utter_algohustle_structure
+
+- story: User asks for AlgoHustle timeline
+  steps:
+  - intent: algohustle_timeline
+  - action: utter_algohustle_timeline
+
+- story: User asks for AlgoHustle rules
+  steps:
+  - intent: algohustle_rules
+  - action: utter_algohustle_rules
+
+- story: User asks for AlgoHustle contact details
+  steps:
+  - intent: algohustle_contact
+  - action: utter_algohustle_contact
+
+- story: User asks about SQL Escape Room event
+  steps:
+  - intent: sql_escape_room_about
+  - action: utter_sql_escape_room_about
+
+- story: User asks for SQL Escape Room structure
+  steps:
+  - intent: sql_escape_room_structure
+  - action: utter_sql_escape_room_structure
+
+- story: User asks for SQL Escape Room timeline
+  steps:
+  - intent: sql_escape_room_timeline
+  - action: utter_sql_escape_room_timeline
+
+- story: User asks for SQL Escape Room rules
+  steps:
+  - intent: sql_escape_room_rules
+  - action: utter_sql_escape_room_rules
+
+- story: User asks for SQL Escape Room contact details
+  steps:
+  - intent: sql_escape_room_contact
+  - action: utter_sql_escape_room_contact
+
+- story: User asks about TechEnigma event
+  steps:
+  - intent: techenigma_about
+  - action: utter_techenigma_about
+
+- story: User asks for TechEnigma structure
+  steps:
+  - intent: techenigma_structure
+  - action: utter_techenigma_structure
+
+- story: User asks for TechEnigma timeline
+  steps:
+  - intent: techenigma_timeline
+  - action: utter_techenigma_timeline
+
+- story: User asks for TechEnigma rules
+  steps:
+  - intent: techenigma_rules
+  - action: utter_techenigma_rules
+
+- story: User asks for TechEnigma contact details
+  steps:
+  - intent: techenigma_contact
+  - action: utter_techenigma_contact
+
+- story: User asks about list of civil events
+  steps:
+  - intent: list_civil_events
+  - action: utter_list_civil_events
+
+- story: User asks about CAD Maestro event
+  steps:
+  - intent: cad_maestro_about
+  - action: utter_cad_maestro_about
+
+- story: User asks for CAD Maestro structure
+  steps:
+  - intent: cad_maestro_structure
+  - action: utter_cad_maestro_structure
+
+- story: User asks for CAD Maestro timeline
+  steps:
+  - intent: cad_maestro_timeline
+  - action: utter_cad_maestro_timeline
+
+- story: User asks for CAD Maestro rules
+  steps:
+  - intent: cad_maestro_rules
+  - action: utter_cad_maestro_rules
+
+- story: User asks for CAD Maestro contact details
+  steps:
+  - intent: cad_maestro_contact
+  - action: utter_cad_maestro_contact
+
+- story: User asks about Civivision event
+  steps:
+  - intent: civivision_about
+  - action: utter_civivision_about
+
+- story: User asks for Civivision structure
+  steps:
+  - intent: civivision_structure
+  - action: utter_civivision_structure
+
+- story: User asks for Civivision timeline
+  steps:
+  - intent: civivision_timeline
+  - action: utter_civivision_timeline
+
+- story: User asks for Civivision rules
+  steps:
+  - intent: civivision_rules
+  - action: utter_civivision_rules
+
+- story: User asks for Civivision contact details
+  steps:
+  - intent: civivision_contact
+  - action: utter_civivision_contact  
+
+- story: User asks about porous_potential event
+  steps:
+  - intent: porous_potential_about
+  - action: utter_porous_potential_about
+
+- story: User asks for porous_potential structure
+  steps:
+  - intent: porous_potential_structure
+  - action: utter_porous_potential_structure
+
+- story: User asks for porous_potential timeline
+  steps:
+  - intent: porous_potential_timeline
+  - action: utter_porous_potential_timeline
+
+- story: User asks for porous_potential rules
+  steps:
+  - intent: porous_potential_rules
+  - action: utter_porous_potential_rules
+
+- story: User asks for porous_potential contact details
+  steps:
+  - intent: porous_potential_contact
+  - action: utter_porous_potential_contact
+
+#ECE Events
+- story: User asks for the list of ECE events
+  steps:
+  - intent: list_ece_events
+  - action: utter_list_ece_events
+
+- story: User asks about electrotactix event
+  steps:
+  - intent: electrotactix_about
+  - action: utter_electrotactix_about
+
+- story: User asks for electrotactix structure
+  steps:
+  - intent: electrotactix_structure
+  - action: utter_electrotactix_structure
+
+- story: User asks for electrotactix timeline
+  steps:
+  - intent: electrotactix_timeline
+  - action: utter_electrotactix_timeline
+
+- story: User asks for electrotactix rules
+  steps:
+  - intent: electrotactix_rules
+  - action: utter_electrotactix_rules
+
+- story: User asks for electrotactix contact details
+  steps:
+  - intent: electrotactix_contact
+  - action: utter_electrotactix_contact
+ 
+- story: User asks about crack_the_vault event
+  steps:
+  - intent: crack_the_vault_about
+  - action: utter_crack_the_vault_about
+
+- story: User asks for crack_the_vault structure  
+  steps:
+  - intent: crack_the_vault_structure
+  - action: utter_crack_the_vault_structure
+
+- story: User asks for crack_the_vault timeline 
+  steps:
+  - intent: crack_the_vault_timeline
+  - action: utter_crack_the_vault_timeline
+
+- story: User asks for crack_the_vault rules
+  steps:
+  - intent: crack_the_vault_rules
+  - action: utter_crack_the_vault_rules
+
+- story: User asks for crack_the_vault contact details
+  steps:
+  - intent: crack_the_vault_contact
+  - action: utter_crack_the_vault_contact
+
+- story: User asks about tictactech event
+  steps:
+  - intent: tictactech_about
+  - action: utter_tictactech_about  
+
+- story: User asks for tictactech structure
+  steps:
+  - intent: tictactech_structure
+  - action: utter_tictactech_structure
+
+- story: User asks for tictactech timeline
+  steps:
+  - intent: tictactech_timeline
+  - action: utter_tictactech_timeline
+
+- story: User asks for tictactech rules
+  steps:
+  - intent: tictactech_rules
+  - action: utter_tictactech_rules
+
+- story: User asks for tictactech contact details 
+  steps:
+  - intent: tictactech_contact
+  - action: utter_tictactech_contact
+
+- story: User asks for the list of PUC events
+  steps:
+  - intent: list_puc_events
+  - action: utter_list_puc_events
+
+- story: User asks about the event puzzle pinnacle 
+  steps:
+  - intent: puzzle_pinnacle_about
+  - action: utter_puzzle_pinnacle_about
+
+- story: User asks for the structure of puzzle pinnacle
+  steps:
+  - intent: puzzle_pinnacle_structure
+  - action: utter_puzzle_pinnacle_structure
+
+- story: User asks for the timeline of puzzle pinnacle
+  steps:
+  - intent: puzzle_pinnacle_timeline
+  - action: utter_puzzle_pinnacle_timeline
+
+- story: User asks for the rules of puzzle pinnacle
+  steps:
+  - intent: puzzle_pinnacle_rules
+  - action: utter_puzzle_pinnacle_rules
+
+- story: User asks for the contact details of puzzle pinnacle
+  steps:
+  - intent: puzzle_pinnacle_contact
+  - action: utter_puzzle_pinnacle_contact
+
+- story: User asks about the event icon of puc
+  steps:
+  - intent: icon_of_puc_about
+  - action: utter_icon_of_puc_about
+
+- story: User asks for the structure of icon of puc
+  steps:
+  - intent: icon_of_puc_structure
+  - action: utter_icon_of_puc_structure
+
+- story: User asks for the timeline of icon of puc  
+  steps:
+  - intent: icon_of_puc_timeline
+  - action: utter_icon_of_puc_timeline
+
+- story: User asks for the rules of icon of puc
+  steps:
+  - intent: icon_of_puc_rules
+  - action: utter_icon_of_puc_rules
+
+- story: User asks for the contact details of icon of puc
+  steps:
+  - intent: icon_of_puc_contact
+  - action: utter_icon_of_puc_contact
+
+- story: User asks about the event cinebot
+  steps:
+  - intent: cinebot_about
+  - action: utter_cinebot_about
+
+- story: User asks for the structure of cinebot
+  steps:
+  - intent: cinebot_structure
+  - action: utter_cinebot_structure
+
+- story: User asks for the timeline of cinebot
+  steps:
+  - intent: cinebot_timeline
+  - action: utter_cinebot_timeline
+
+- story: User asks for the rules of cinebot
+  steps:
+  - intent: cinebot_rules
+  - action: utter_cinebot_rules
+
+- story: User asks for the contact details of cinebot
+  steps:
+  - intent: cinebot_contact
+  - action: utter_cinebot_contact
+
+- story: User asks about the event prompt and paint
+  steps:
+  - intent: prompt_and_paint_about
+  - action: utter_prompt_and_paint_about
+
+- story: User asks for the structure of prompt and paint
+  steps:
+  - intent: prompt_and_paint_structure
+  - action: utter_prompt_and_paint_structure
+
+- story: User asks for the timeline of prompt and paint
+  steps:
+  - intent: prompt_and_paint_timeline
+  - action: utter_prompt_and_paint_timeline
+
+- story: User asks for the rules of prompt and paint
+  steps:
+  - intent: prompt_and_paint_rules
+  - action: utter_prompt_and_paint_rules
+
+- story: User asks for the contact details of prompt and paint
+  steps:
+  - intent: prompt_and_paint_contact
+  - action: utter_prompt_and_paint_contact
+
+- story: User asks for the list of MME events
+  steps:
+  - intent: list_mme_events
+  - action: utter_list_mme_events
+
+- story: User asks about the event metallography
+  steps:
+  - intent: metallography_about
+  - action: utter_metallography_about
+
+- story: User asks for the structure of metallography
+  steps:
+  - intent: metallography_structure
+  - action: utter_metallography_structure
+
+- story: User asks for the timeline of metallography
+  steps:
+  - intent: metallography_timeline
+  - action: utter_metallography_timeline
+
+- story: User asks for the rules of metallography
+  steps:
+  - intent: metallography_rules
+  - action: utter_metallography_rules
+
+- story: User asks for the contact details of metallography
+  steps:
+  - intent: metallography_contact
+  - action: utter_metallography_contact
+
+- story: User asks about the event case study
+  steps:
+  - intent: case_study_about
+  - action: utter_case_study_about
+
+- story: User asks for the structure of case study
+  steps:
+  - intent: case_study_structure
+  - action: utter_case_study_structure
+
+- story: User asks for the timeline of case study
+  steps:
+  - intent: case_study_timeline
+  - action: utter_case_study_timeline
+
+- story: User asks for the rules of case study
+  steps:
+  - intent: case_study_rules
+  - action: utter_case_study_rules
+
+- story: User asks for the contact details of case study
+  steps:
+  - intent: case_study_contact
+  - action: utter_case_study_contact
+
+- story: User asks about the event meta x word
+  steps:
+  - intent: meta_x_word_about
+  - action: utter_meta_x_word_about
+
+- story: User asks for the structure of meta x word
+  steps:
+  - intent: meta_x_word_structure
+  - action: utter_meta_x_word_structure
+
+- story: User asks for the timeline of meta x word
+  steps:
+  - intent: meta_x_word_timeline
+  - action: utter_meta_x_word_timeline
+
+- story: User asks for the rules of meta x word
+  steps:
+  - intent: meta_x_word_rules
+  - action: utter_meta_x_word_rules
+
+- story: User asks for the contact details of meta x word
+  steps:
+  - intent: meta_x_word_contact
+  - action: utter_meta_x_word_contact
+
+- story: User asks about the escape odyssy event
+  steps:
+  - intent: escape_odyssey_about
+  - action: utter_escape_odyssey_about
+
+- story: User asks for the structure of escape odyssy
+  steps:
+  - intent: escape_odyssey_structure
+  - action: utter_escape_odyssey_structure
+
+- story: User asks for the timeline of escape odyssy
+  steps:
+  - intent: escape_odyssey_timeline
+  - action: utter_escape_odyssey_timeline
+
+- story: User asks for the rules of escape odyssy
+  steps:
+  - intent: escape_odyssey_rules
+  - action: utter_escape_odyssey_rules
+
+- story: User asks for the contact details of escape odyssy
+  steps:
+  - intent: escape_odyssey_contact
+  - action: utter_escape_odyssey_contact
+
+- story: User asks about the list of mech events
+  steps:
+  - intent: list_mech_events
+  - action: utter_list_mech_events
+
+- story: User asks about the event assemble disassemble
+  steps:
+  - intent: assemble_disassemble_about
+  - action: utter_assemble_disassemble_about
+
+- story: User asks for the structure of assemble disassemble
+  steps:
+  - intent: assemble_disassemble_structure
+  - action: utter_assemble_disassemble_structure
+
+- story: User asks for the timeline of assemble disassemble
+  steps:
+  - intent: assemble_disassemble_timeline
+  - action: utter_assemble_disassemble_timeline
+
+- story: User asks for the rules of assemble disassemble
+  steps:
+  - intent: assemble_disassemble_rules
+  - action: utter_assemble_disassemble_rules
+
+- story: User asks for the contact details of assemble disassemble
+  steps:
+  - intent: assemble_disassemble_contact
+  - action: utter_assemble_disassemble_contact
+
+- story: User asks about the event logo auction
+  steps:
+  - intent: logo_auction_about
+  - action: utter_logo_auction_about
+
+- story: User asks for the structure of logo auction
+  steps:
+  - intent: logo_auction_structure
+  - action: utter_logo_auction_structure
+
+- story: User asks for the timeline of logo auction
+  steps:
+  - intent: logo_auction_timeline
+  - action: utter_logo_auction_timeline
+
+- story: User asks for the rules of logo auction
+  steps:
+  - intent: logo_auction_rules
+  - action: utter_logo_auction_rules
+
+- story: User asks for the contact details of logo auction
+  steps:
+  - intent: logo_auction_contact
+  - action: utter_logo_auction_contact
+
+- story: User asks about the event cadomania
+  steps:
+  - intent: cadomania_about
+  - action: utter_cadomania_about
+
+- story: User asks for the structure of cadomania
+  steps:
+  - intent: cadomania_structure
+  - action: utter_cadomania_structure
+
+- story: User asks for the timeline of cadomania
+  steps:
+  - intent: cadomania_timeline
+  - action: utter_cadomania_timeline
+
+- story: User asks for the rules of cadomania
+  steps:
+  - intent: cadomania_rules
+  - action: utter_cadomania_rules
+
+- story: User asks for the contact details of cadomania
+  steps:
+  - intent: cadomania_contact
+  - action: utter_cadomania_contact
+
+- story: User asks about the event mech craft
+  steps:
+  - intent: mech_craft_about
+  - action: utter_mech_craft_about
+
+- story: User asks for the structure of mech craft  
+  steps:
+  - intent: mech_craft_structure
+  - action: utter_mech_craft_structure
+
+- story: User asks for the timeline of mech craft
+  steps:
+  - intent: mech_craft_timeline
+  - action: utter_mech_craft_timeline
+
+- story: User asks for the rules of mech craft
+  steps:
+  - intent: mech_craft_rules
+  - action: utter_mech_craft_rules
+
+- story: User asks for the contact details of mech craft
+  steps:
+  - intent: mech_craft_contact
+  - action: utter_mech_craft_contact
+
+- story: User asks about the list of EEE events
+  steps:
+  - intent: list_eee_events
+  - action: utter_list_eee_events
+
+- story: User asks about the list of EEE events
+  steps:
+  - intent: list_eee_events
+  - action: utter_list_eee_events
+
+- story: User asks about the event voltage vault
+  steps:
+  - intent: voltage_vault_about
+  - action: utter_voltage_vault_about
+
+- story: User asks for the structure of voltage vault
+  steps:
+  - intent: voltage_vault_structure
+  - action: utter_voltage_vault_structure
+
+- story: User asks for the timeline of voltage vault
+  steps:
+  - intent: voltage_vault_timeline
+  - action: utter_voltage_vault_timeline
+ 
+- story: User asks for the rules of voltage vault
+  steps:
+  - intent: voltage_vault_rules
+  - action: utter_voltage_vault_rules
+
+- story: User asks for the contact details of voltage vault
+  steps:
+  - intent: voltage_vault_contact
+  - action: utter_voltage_vault_contact
+
+- story: User asks about the event unlock unknown
+  steps:
+  - intent: unlock_unknown_about
+  - action: utter_unlock_unknown_about
+
+- story: User asks for the structure of unlock unknown
+  steps:
+  - intent: unlock_unknown_structure
+  - action: utter_unlock_unknown_structure
+
+- story: User asks for the timeline of unlock unknown
+  steps:
+  - intent: unlock_unknown_timeline
+  - action: utter_unlock_unknown_timeline
+
+- story: User asks for the rules of unlock unknown
+  steps:
+  - intent: unlock_unknown_rules
+  - action: utter_unlock_unknown_rules
+
+- story: User asks for the contact details of unlock unknown
+  steps:
+  - intent: unlock_unknown_contact
+  - action: utter_unlock_unknown_contact
+
+- story: User asks about the event brightest mind
+  steps:
+  - intent: brightest_mind_about
+  - action: utter_brightest_mind_about
+
+- story: User asks for the structure of brightest mind
+  steps:
+  - intent: brightest_mind_structure
+  - action: utter_brightest_mind_structure
+
+- story: User asks for the timeline of brightest mind
+  steps:
+  - intent: brightest_mind_timeline
+  - action: utter_brightest_mind_timeline
+
+- story: User asks for the rules of brightest mind
+  steps:
+  - intent: brightest_mind_rules
+  - action: utter_brightest_mind_rules
+
+- story: User asks for the contact details of brightest mind
+  steps:
+  - intent: brightest_mind_contact
+  - action: utter_brightest_mind_contact
+
+- story: User asks about the event energy odyssey
+  steps:
+  - intent: energy_odyssey_about
+  - action: utter_energy_odyssey_about
+
+- story: User asks for the structure of energy odyssey
+  steps:
+  - intent: energy_odyssey_structure
+  - action: utter_energy_odyssey_structure
+
+- story: User asks for the timeline of energy odyssey
+  steps:
+  - intent: energy_odyssey_timeline
+  - action: utter_energy_odyssey_timeline
+
+- story: User asks for the rules of energy odyssey
+  steps:
+  - intent: energy_odyssey_rules
+  - action: utter_energy_odyssey_rules
+
+- story: User asks for the contact details of energy odyssey
+  steps:
+  - intent: energy_odyssey_contact
+  - action: utter_energy_odyssey_contact
+
+- story: User asks about the process of registration
+  steps:
+  - intent: registration_process
+  - action: utter_registration_process
+
+- story: User asks about the registration payment
+  steps:
+  - intent: registration_payment
+  - action: utter_registration_payment
+
+- story: User asks about the event location
+  steps:
+  - intent: event_location
+  - action: utter_event_location
+
+- story: User asks about the event dates
+  steps:
+  - intent: event_dates
+  - action: utter_event_dates
+
+- story: User asks about the event theme
+  steps:
+  - intent: event_theme
+  - action: utter_event_theme
+
+
+
+
+
+######
+- story: User asks about Teckzite
+  steps:
+    - intent: about_teckzite
+    - action: utter_about_teckzite
+
+- story: User asks about Teckzite theme
+  steps:
+    - intent: teckzite_theme
+    - action: utter_teckzite_theme
+
+- story: User asks about Teckzite duration
+  steps:
+    - intent: teckzite_duration
+    - action: utter_teckzite_duration
+
+- story: User asks about Teckzite event categories
+  steps:
+    - intent: teckzite_event_categories
+    - action: utter_teckzite_event_categories
+
+- story: User asks about Teckzite coding events
+  steps:
+    - intent: teckzite_coding_events
+    - action: utter_teckzite_coding_events
+
+- story: User asks about Teckzite robotics events
+  steps:
+    - intent: teckzite_robotics_events
+    - action: utter_teckzite_robotics_events
+
+- story: User asks about Teckzite hackathons
+  steps:
+    - intent: teckzite_hackathons
+    - action: utter_teckzite_hackathons
+
+- story: User asks about Teckzite workshops
+  steps:
+    - intent: teckzite_workshops
+    - action: utter_teckzite_workshops
+
+- story: User asks about Teckzite gaming events
+  steps:
+    - intent: teckzite_gaming_events
+    - action: utter_teckzite_gaming_events
+
+- story: User asks about Teckzite cultural events
+  steps:
+    - intent: teckzite_cultural_events
+    - action: utter_teckzite_cultural_events
+
+- story: User asks about Teckzite guest speakers
+  steps:
+    - intent: teckzite_guest_speakers
+    - action: utter_teckzite_guest_speakers
+
+- story: User asks about Teckzite Metaverse theme
+  steps:
+    - intent: teckzite_metaverse_theme
+    - action: utter_teckzite_metaverse_theme
+
+- story: User asks about Teckzite registration
+  steps:
+    - intent: teckzite_registration
+    - action: utter_teckzite_registration
+
+
+- story: User asks about Advanced Materials workshop
+  steps:
+  - intent: workshop_advanced_materials
+  - action: utter_workshop_advanced_materials
+
+- story: User asks about Mech Craft workshop
+  steps:
+  - intent: workshop_mech_craft
+  - action: utter_workshop_mech_craft
+
+- story: User asks about workshop registration
+  steps:
+  - intent: teckzite_workshop_registration
+  - action: utter_teckzite_workshop_registration
+
+- story: User asks about workshop fees
+  steps:
+  - intent: teckzite_workshop_fees
+  - action: utter_teckzite_workshop_fees
+
+- story: User asks about workshop schedule
+  steps:
+  - intent: teckzite_workshop_schedule
+  - action: utter_teckzite_workshop_schedule
+
+- story: User asks about workshop instructors
+  steps:
+  - intent: teckzite_workshop_instructors
+  - action: utter_teckzite_workshop_instructors
+
+- story: User asks for workshop contact details
+  steps:
+  - intent: teckzite_workshop_contact
+  - action: utter_teckzite_workshop_contact
+
+
+- story: User asks about top referrals
+  steps:
+  - intent: inquire_top_referrals
+  - action: utter_inquire_top_referrals
+
+- story: User asks about referral count
+  steps:
+  - intent: inquire_referral_count
+  - action: utter_inquire_referral_count
+
+- story: User asks about referral email
+  steps:
+  - intent: inquire_referral_email
+  - action: utter_inquire_referral_email
+
+
+- story: User asks about sponsorship categories
+  steps:
+  - intent: inquire_sponsorship_categories
+  - action: utter_inquire_sponsorship_categories
+
+- story: User asks about digital and media sponsor
+  steps:
+  - intent: inquire_digital_media_sponsor
+  - action: utter_inquire_digital_media_sponsor
+
+- story: User asks about event booster sponsor
+  steps:
+  - intent: inquire_event_booster
+  - action: utter_inquire_event_booster
+
+- story: User asks about overseas education sponsor
+  steps:
+  - intent: inquire_overseas_education_sponsor
+  - action: utter_inquire_overseas_education_sponsor
+
+- story: User asks about education partner
+  steps:
+  - intent: inquire_education_partner
+  - action: utter_inquire_education_partner
+
+- story: User asks about skill development partner
+  steps:
+  - intent: inquire_skill_development_partner
+  - action: utter_inquire_skill_development_partner
+
+- story: User asks about DevOps and cloud partner
+  steps:
+  - intent: inquire_devops_cloud_partner
+  - action: utter_inquire_devops_cloud_partner
+
+- story: User asks about EdTech partner
+  steps:
+  - intent: inquire_edtech_partner
+  - action: utter_inquire_edtech_partner
+
+
+- story: User asks about workshops list
+  steps:
+  - intent: inquire_workshops_list
+  - action: utter_inquire_workshops_list
+
+- story: User asks about Advanced Materials workshop
+  steps:
+  - intent: inquire_advanced_materials_workshop
+  - action: utter_inquire_advanced_materials_workshop
+
+- story: User asks about Machine Learning workshop
+  steps:
+  - intent: inquire_machine_learning_workshop
+  - action: utter_inquire_machine_learning_workshop
+
+- story: User asks about SketchUp BIM workshop
+  steps:
+  - intent: inquire_sketchup_bim_workshop
+  - action: utter_inquire_sketchup_bim_workshop
+
+- story: User asks about workshop registration
+  steps:
+  - intent: inquire_workshop_registration
+  - action: utter_inquire_workshop_registration
+
+- story: User asks about workshop fees
+  steps:
+  - intent: inquire_workshop_fees
+  - action: utter_inquire_workshop_fees
+
+- story: User asks about workshop schedule
+  steps:
+  - intent: inquire_workshop_schedule
+  - action: utter_inquire_workshop_schedule
+
+- story: User asks for workshop contact details
+  steps:
+  - intent: inquire_workshop_contacts
+  - action: utter_inquire_workshop_contacts
+
+
+- story: User asks about hackathon details
+  steps:
+  - intent: inquire_hackathon_details
+  - action: utter_inquire_hackathon_details
+
+- story: User asks about hackathon perks
+  steps:
+  - intent: inquire_hackathon_perks
+  - action: utter_inquire_hackathon_perks
+
+- story: User asks about AI Hackathon
+  steps:
+  - intent: inquire_ai_hackathon_details
+  - action: utter_inquire_ai_hackathon_details
+
+- story: User asks about Robothon
+  steps:
+  - intent: inquire_robothon_details
+  - action: utter_inquire_robothon_details
+
+- story: User asks about hackathon rounds
+  steps:
+  - intent: inquire_hackathon_rounds
+  - action: utter_inquire_hackathon_rounds
+
+- story: User asks about hackathon schedule
+  steps:
+  - intent: inquire_hackathon_schedule
+  - action: utter_inquire_hackathon_schedule
+
+- story: User asks about hackathon prize pool
+  steps:
+  - intent: inquire_hackathon_prize_pool
+  - action: utter_inquire_hackathon_prize_pool
+
+- story: User asks about hackathon facilities
+  steps:
+  - intent: inquire_hackathon_facilities
+  - action: utter_inquire_hackathon_facilities
+
+- story: User asks about hackathon collaborators
+  steps:
+  - intent: inquire_hackathon_collaborators
+  - action: utter_inquire_hackathon_collaborators
+
+- story: User asks about hackathon registration
+  steps:
+  - intent: inquire_hackathon_registration
+  - action: utter_inquire_hackathon_registration
+
+- story: User asks about hackathon contact details
+  steps:
+  - intent: inquire_hackathon_contact
+  - action: utter_inquire_hackathon_contact
+
+- story: User asks about the web team
+  steps:
+    - intent: inquire_web_team
+    - action: utter_inquire_web_team
+
+- story: User asks about the core team
+  steps:
+    - intent: inquire_core_team
+    - action: utter_inquire_core_team
+
+- story: User asks about the web team manager
+  steps:
+    - intent: inquire_web_team_manager
+    - action: utter_inquire_web_team_manager
+
+- story: User asks about frontend developers
+  steps:
+    - intent: inquire_frontend_developers
+    - action: utter_inquire_frontend_developers
+
+- story: User asks about UI/UX designers
+  steps:
+    - intent: inquire_ui_ux_designers
+    - action: utter_inquire_ui_ux_designers
+
+- story: User asks about backend developers
+  steps:
+    - intent: inquire_backend_developer
+    - action: utter_inquire_backend_developer
+
+- story: User asks about full-stack developers
+  steps:
+    - intent: inquire_fullstack_developers
+    - action: utter_inquire_fullstack_developers
+
+- story: User asks about app developers
+  steps:
+    - intent: inquire_app_developer
+    - action: utter_inquire_app_developer
+
+- story: User asks about events and marketing coordinators
+  steps:
+    - intent: inquire_events_marketing
+    - action: utter_inquire_events_marketing
+
+- story: User asks about workshop and project expo coordinators
+  steps:
+    - intent: inquire_workshop_project_expo
+    - action: utter_inquire_workshop_project_expo
+
+- story: User asks about promotions and hospitality coordinators
+  steps:
+    - intent: inquire_promotions_hospitality
+    - action: utter_inquire_promotions_hospitality
+
+- story: User asks about design and technical support team
+  steps:
+    - intent: inquire_design_technical_support
+    - action: utter_inquire_design_technical_support
+
+- story: User asks about cultural and content creation team
+  steps:
+    - intent: inquire_cultural_content
+    - action: utter_inquire_cultural_content
+
+- story: User asks about photography and open event coordinators
+  steps:
+    - intent: inquire_photography_open_events
+    - action: utter_inquire_photography_open_events
+
+- story: User asks about disciplinary coordinators
+  steps:
+    - intent: inquire_disciplinary_team
+    - action: utter_inquire_disciplinary_team
+
+- story: User asks about MegaExpo registration
+  steps:
+    - intent: inquire_megaexpo_registration
+    - action: utter_megaexpo_registration
+
+- story: User asks about MegaExpo timeline
+  steps:
+    - intent: inquire_megaexpo_timeline
+    - action: utter_megaexpo_timeline
+
+- story: User asks about MegaExpo judging criteria
+  steps:
+    - intent: inquire_megaexpo_judging_criteria
+    - action: utter_megaexpo_judging_criteria
+
+- story: User asks about MegaExpo submission guidelines
+  steps:
+    - intent: inquire_megaexpo_submission_guidelines
+    - action: utter_inquire_megaexpo_submission_guidelines
+
+- story: User asks about MegaExpo team size
+  steps:
+    - intent: inquire_megaexpo_team_size
+    - action: utter_megaexpo_team_size
+
+- story: User asks about MegaExpo problem statements
+  steps:
+    - intent: inquire_megaexpo_problem_statements
+    - action: utter_megaexpo_problem_statements
+
+- story: User asks about MegaExpo rounds
+  steps:
+    - intent: inquire_megaexpo_rounds
+    - action: utter_inquire_megaexpo_rounds
+
+- story: User asks about MegaExpo details
+  steps:
+    - intent: inquire_megaexpo_details
+    - action: utter_inquire_megaexpo_details
