@@ -1,0 +1,1846 @@
+version: "3.0"
+nlu:
+
+#Open to all Events
+- intent: open_to_all_events
+  examples: |
+    - What are the events open to all?
+    - Can you list all the open-to-all events?
+    - Tell me the events that anyone can participate in.
+    - What events are available for everyone?
+    - Give me the names of open-to-all events.
+
+- intent: inquire_about_bis_quiz
+  examples: |
+    - Tell me about the BIS Quiz event.
+    - What is the BIS Quiz?
+    - Can you explain the BIS Quiz event?
+    - What are the details of the BIS Quiz?
+    - How does the BIS Quiz work?
+    - What is the format of the BIS Quiz?
+    - What are the rules for the BIS Quiz?
+    - Who is the organizer for the BIS Quiz?
+    - What is the team size for the BIS Quiz?
+
+- intent: inquire_about_ipl_auction
+  examples: |
+    - What is the IPL Auction event?
+    - Tell me about the IPL Auction event.
+    - How does the IPL Auction work?
+    - What is the structure of the IPL Auction event?
+    - What are the rules for the IPL Auction?
+    - Who is organizing the IPL Auction event?
+    - How many members per team for IPL Auction?
+    - Give me details about the IPL Auction.
+    - When is the IPL Auction event scheduled?
+
+- intent: inquire_about_free_fire
+  examples: |
+    - What is the Free Fire event?
+    - Tell me about the Free Fire event.
+    - What are the rules for Free Fire?
+    - How is the Free Fire event structured?
+    - What is the team size for Free Fire?
+    - Can I participate in Free Fire solo?
+    - Who is organizing the Free Fire event?
+    - Where will the Free Fire event take place?
+    - What are the gaming modes in Free Fire event?
+
+- intent: inquire_about_envision_ias_test
+  examples: |
+    - Tell me about the Envision IAS Test.
+    - What is the Envision IAS Test event?
+    - What are the rounds in the Envision IAS Test?
+    - What is the format of the IAS Test?
+    - Who is conducting the Envision IAS Test?
+    - How can I participate in the IAS Test?
+    - What is the difficulty level of the IAS Test?
+    - How many rounds are there in the Envision IAS Test?
+    - Give me the details of the Envision IAS Test event.
+
+- intent: inquire_about_squid_zone
+  examples: |
+    - What is the Squid Zone event?
+    - Tell me about the Squid Zone.
+    - How does the Squid Zone event work?
+    - What are the rules for Squid Zone?
+    - Can I participate in Squid Zone alone?
+    - Who is organizing the Squid Zone event?
+    - How many rounds are in Squid Zone?
+    - What type of games will be in Squid Zone?
+    - When is the Squid Zone event scheduled?
+
+- intent: event_timeline
+  examples: |
+    - When is the BIS Quiz happening?
+    - What is the time schedule for the IPL Auction?
+    - When will the Free Fire event take place?
+    - Tell me the timeline of Envision IAS Test.
+    - When is the Squid Zone event?
+    - Give me the date and time for the BIS Quiz.
+    - What time does the Free Fire event start?
+
+- intent: event_contact
+  examples: |
+    - Who is the event coordinator for BIS Quiz?
+    - Give me the contact details for the IPL Auction.
+    - How can I reach the organizer of Free Fire?
+    - Who should I contact for Envision IAS Test?
+    - Provide the contact information for Squid Zone.
+    - Can I get the coordinator’s phone number for the BIS Quiz?
+    - Who is handling the Free Fire event?
+
+- intent: event_rules
+  examples: |
+    - What are the rules for BIS Quiz?
+    - Give me the rules of IPL Auction.
+    - What guidelines do I need to follow for Free Fire?
+    - What are the dos and don’ts for Squid Zone?
+    - Explain the regulations of the Envision IAS Test.
+    - What restrictions are there for the IPL Auction?
+    - Can you list the rules for the Squid Zone event?
+
+- intent: event_structure
+  examples: |
+    - What is the structure of BIS Quiz?
+    - How is the IPL Auction event structured?
+    - What are the rounds in Free Fire?
+    - Explain the different rounds of the Envision IAS Test.
+    - What is the competition format for Squid Zone?
+    - How does the BIS Quiz event proceed?
+    - What is the tournament setup for Free Fire?
+
+# - intent: event_registration
+#   examples: |
+#     - How do I register for BIS Quiz?
+#     - What is the registration process for IPL Auction?
+#     - Where can I sign up for Free Fire?
+#     - How can I participate in Envision IAS Test?
+#     - How do I enroll in Squid Zone?
+#     - Is pre-registration required for BIS Quiz?
+#     - Do I need to register before the event?
+
+# - intent: general_event_inquiry
+#   examples: |
+#     - Tell me about Teckzite events.
+#     - What events are there in Teckzite?
+#     - How many events are there in Teckzite?
+#     - Which events can I participate in?
+#     - What types of events are open to all?
+#     - Can I get details about all events in Teckzite?
+#     - What is Teckzite and what does it include?
+
+
+
+#Chemical Events
+- intent: list_chemical_events
+  examples: |
+    - What are the events in the Chemical branch?
+    - List all events for the Chemical department.
+    - What competitions are available in Chemical?
+    - Give me the names of all Chemical events.
+
+- intent: chem_ai_quest_info
+  examples: |
+    - Tell me about Chem AI Quest
+    - What is Chem AI Quest?
+    - Give details about Chem AI Quest event
+    - Chem AI Quest event information
+    - Explain the Chem AI Quest competition
+
+- intent: chem_ai_quest_rules
+  examples: |
+    - What are the rules of Chem AI Quest?
+    - Chem AI Quest rules and regulations
+    - Can you list the rules for Chem AI Quest?
+    - Restrictions for participating in Chem AI Quest
+    - Guidelines for Chem AI Quest event
+
+- intent: chem_ai_quest_structure
+  examples: |
+    - What is the structure of Chem AI Quest?
+    - Explain the rounds in Chem AI Quest
+    - How is Chem AI Quest organized?
+    - Describe the stages in Chem AI Quest
+    - What are the different rounds in Chem AI Quest?
+
+- intent: chem_ai_quest_timeline
+  examples: |
+    - When is Chem AI Quest happening?
+    - Date and time for Chem AI Quest
+    - Chem AI Quest event schedule
+    - What is the timeline for Chem AI Quest?
+    - Chem AI Quest event date
+
+- intent: visionary_young_info
+  examples: |
+    - Tell me about Visionary Young
+    - What is Visionary Young event?
+    - Give details about Visionary Young
+    - Visionary Young competition details
+    - Explain the Visionary Young contest
+
+- intent: visionary_young_rules
+  examples: |
+    - What are the rules of Visionary Young?
+    - Visionary Young event rules
+    - Can you list the rules for Visionary Young?
+    - Guidelines for Visionary Young event
+    - Eligibility criteria for Visionary Young
+
+- intent: visionary_young_structure
+  examples: |
+    - What is the structure of Visionary Young?
+    - Explain the format of Visionary Young event
+    - How does the Visionary Young competition work?
+    - Describe the steps in Visionary Young event
+    - What is the submission process for Visionary Young?
+
+- intent: visionary_young_timeline
+  examples: |
+    - When is Visionary Young happening?
+    - Date and time for Visionary Young
+    - Visionary Young event schedule
+    - What is the timeline for Visionary Young?
+    - Visionary Young event date
+
+- intent: alchemy_empire_info
+  examples: |
+    - Tell me about Alchemy Empire
+    - What is Alchemy Empire event?
+    - Give details about Alchemy Empire competition
+    - Explain the Alchemy Empire event
+    - Alchemy Empire contest details
+
+- intent: alchemy_empire_rules
+  examples: |
+    - What are the rules of Alchemy Empire?
+    - Alchemy Empire event rules
+    - Can you list the rules for Alchemy Empire?
+    - Guidelines for Alchemy Empire event
+    - Participation criteria for Alchemy Empire
+
+- intent: alchemy_empire_structure
+  examples: |
+    - What is the structure of Alchemy Empire?
+    - Explain the format of Alchemy Empire event
+    - How is Alchemy Empire organized?
+    - Describe the rounds in Alchemy Empire
+    - What are the different phases of Alchemy Empire?
+
+- intent: alchemy_empire_timeline
+  examples: |
+    - When is Alchemy Empire happening?
+    - Date and time for Alchemy Empire
+    - Alchemy Empire event schedule
+    - What is the timeline for Alchemy Empire?
+    - Alchemy Empire event date
+
+- intent: final_key_info
+  examples: |
+    - Tell me about Final Key
+    - What is Final Key event?
+    - Give details about Final Key competition
+    - Explain the Final Key event
+    - Final Key contest details
+
+- intent: final_key_rules
+  examples: |
+    - What are the rules of Final Key?
+    - Final Key event rules
+    - Can you list the rules for Final Key?
+    - Guidelines for Final Key event
+    - Participation criteria for Final Key
+
+- intent: final_key_structure
+  examples: |
+    - What is the structure of Final Key?
+    - Explain the format of Final Key event
+    - How is Final Key organized?
+    - Describe the stages in Final Key
+    - What are the different phases of Final Key?
+
+- intent: final_key_timeline
+  examples: |
+    - When is Final Key happening?
+    - Date and time for Final Key
+    - Final Key event schedule
+    - What is the timeline for Final Key?
+    - Final Key event date
+
+
+#CSE EVENTS
+- intent: list_cse_events
+  examples: |
+      - What are the events in the CSE branch?
+      - List all events for the CSE department.
+      - What competitions are available in CSE?
+      - Give me the names of all CSE events.
+
+- intent: algohustle_about
+  examples: |
+    - What is AlgoHustle about?
+    - Give me a brief description of AlgoHustle.
+    - What happens in the AlgoHustle event?
+    - Can you explain AlgoHustle?
+
+- intent: algohustle_rules
+  examples: |
+    - What are the rules for AlgoHustle?
+    - Explain the rules of AlgoHustle.
+    - Are there any restrictions for AlgoHustle?
+    - What is not allowed in AlgoHustle?
+
+- intent: algohustle_structure
+  examples: |
+    - What is the structure of AlgoHustle?
+    - How is AlgoHustle organized?
+    - Can you explain the rounds in AlgoHustle?
+    - How many rounds are in AlgoHustle?
+
+- intent: algohustle_timeline
+  examples: |
+    - What is the schedule for AlgoHustle?
+    - When will AlgoHustle take place?
+    - Tell me the timeline for AlgoHustle.
+    - What are the timings for each round in AlgoHustle?
+
+- intent: algohustle_contact
+  examples: |
+    - Who should I contact for AlgoHustle?
+    - Give me the contact details for AlgoHustle.
+    - Who are the coordinators for AlgoHustle?
+    - How can I reach out regarding AlgoHustle?
+
+- intent: sql_escape_room_about
+  examples: |
+    - What is SQL Escape Room about?
+    - Describe SQL Escape Room.
+    - What is the SQL Escape Room competition?
+    - Can you give me details about SQL Escape Room?
+
+- intent: sql_escape_room_rules
+  examples: |
+    - What are the rules for SQL Escape Room?
+    - Explain the rules of SQL Escape Room.
+    - Are there any restrictions for SQL Escape Room?
+    - What guidelines should I follow in SQL Escape Room?
+
+- intent: sql_escape_room_structure
+  examples: |
+    - What is the structure of SQL Escape Room?
+    - How is SQL Escape Room conducted?
+    - Explain the rounds in SQL Escape Room.
+    - How many levels are in SQL Escape Room?
+
+- intent: sql_escape_room_timeline
+  examples: |
+    - What is the schedule for SQL Escape Room?
+    - When will SQL Escape Room take place?
+    - Tell me the timeline for SQL Escape Room.
+    - What are the timings for SQL Escape Room?
+
+- intent: sql_escape_room_contact
+  examples: |
+    - Who should I contact for SQL Escape Room?
+    - Give me the contact details for SQL Escape Room.
+    - Who are the coordinators for SQL Escape Room?
+    - How can I reach out regarding SQL Escape Room?
+
+- intent: techenigma_about
+  examples: |
+    - What is TechEnigma about?
+    - Describe TechEnigma.
+    - What is the TechEnigma competition?
+    - Can you give me details about TechEnigma?
+
+- intent: techenigma_rules
+  examples: |
+    - What are the rules for TechEnigma?
+    - Explain the rules of TechEnigma.
+    - Are there any restrictions for TechEnigma?
+    - What guidelines should I follow in TechEnigma?
+
+- intent: techenigma_structure
+  examples: |
+    - What is the structure of TechEnigma?
+    - How is TechEnigma conducted?
+    - Explain the rounds in TechEnigma.
+    - How many levels are in TechEnigma?
+
+- intent: techenigma_timeline
+  examples: |
+    - What is the schedule for TechEnigma?
+    - When will TechEnigma take place?
+    - Tell me the timeline for TechEnigma.
+    - What are the timings for TechEnigma?
+
+- intent: techenigma_contact
+  examples: |
+    - Who should I contact for TechEnigma?
+    - Give me the contact details for TechEnigma.
+    - Who are the coordinators for TechEnigma?
+    - How can I reach out regarding TechEnigma?
+
+#CIVIL EVENTS
+- intent: list_civil_events
+  examples: |
+    - What are the events in the Civil branch?
+    - List all events for the Civil department.
+    - What competitions are available in Civil?
+    - Give me the names of all Civil events.
+
+- intent: cad_maestro_about
+  examples: |
+    - What is CAD Maestro about?
+    - Give me a brief description of CAD Maestro.
+    - What happens in the CAD Maestro event?
+    - Can you explain CAD Maestro?
+
+- intent: cad_maestro_rules
+  examples: |
+    - What are the rules for CAD Maestro?
+    - Explain the rules of CAD Maestro.
+    - Are there any restrictions for CAD Maestro?
+    - What is not allowed in CAD Maestro?
+
+- intent: cad_maestro_structure
+  examples: |
+    - What is the structure of CAD Maestro?
+    - How is CAD Maestro organized?
+    - Can you explain the rounds in CAD Maestro?
+    - How many rounds are in CAD Maestro?
+
+- intent: cad_maestro_timeline
+  examples: |
+    - What is the schedule for CAD Maestro?
+    - When will CAD Maestro take place?
+    - Tell me the timeline for CAD Maestro.
+    - What are the timings for each round in CAD Maestro?
+
+- intent: cad_maestro_contact
+  examples: |
+    - Who should I contact for CAD Maestro?
+    - Give me the contact details for CAD Maestro.
+    - Who are the coordinators for CAD Maestro?
+    - How can I reach out regarding CAD Maestro?
+
+- intent: civivision_about
+  examples: |
+    - What is Civivision about?
+    - Give me a brief description of Civivision.
+    - What happens in the Civivision event?
+    - Can you explain Civivision?
+
+- intent: civivision_rules
+  examples: |
+    - What are the rules for Civivision?
+    - Explain the rules of Civivision.
+    - Are there any restrictions for Civivision?
+    - What is not allowed in Civivision?
+
+- intent: civivision_structure
+  examples: |
+    - What is the structure of Civivision?
+    - How is Civivision organized?
+    - Can you explain the process of Civivision?
+    - What are the steps in Civivision?
+
+- intent: civivision_timeline
+  examples: |
+    - What is the schedule for Civivision?
+    - When will Civivision take place?
+    - Tell me the timeline for Civivision.
+    - What are the timings for each round in Civivision?
+
+- intent: civivision_contact
+  examples: |
+    - Who should I contact for Civivision?
+    - Give me the contact details for Civivision.
+    - Who are the coordinators for Civivision?
+    - How can I reach out regarding Civivision?
+
+- intent: porous_potential_about
+  examples: |
+    - What is Porous Potential about?
+    - Give me a brief description of Porous Potential.
+    - What happens in the Porous Potential event?
+    - Can you explain Porous Potential?
+
+- intent: porous_potential_rules
+  examples: |
+    - What are the rules for Porous Potential?
+    - Explain the rules of Porous Potential.
+    - Are there any restrictions for Porous Potential?
+    - What is not allowed in Porous Potential?
+
+- intent: porous_potential_structure
+  examples: |
+    - What is the structure of Porous Potential?
+    - How is Porous Potential organized?
+    - Can you explain the rounds in Porous Potential?
+    - How does the competition process work in Porous Potential?
+
+- intent: porous_potential_timeline
+  examples: |
+    - What is the schedule for Porous Potential?
+    - When will Porous Potential take place?
+    - Tell me the timeline for Porous Potential.
+    - What are the timings for Porous Potential?
+
+- intent: porous_potential_contact
+  examples: |
+    - Who should I contact for Porous Potential?
+    - Give me the contact details for Porous Potential.
+    - Who are the coordinators for Porous Potential?
+    - How can I reach out regarding Porous Potential?
+
+- intent: list_ece_events
+  examples: |
+      - What are the events in the ECE branch?
+      - List all events for the ECE department.
+      - What competitions are available in ECE?
+      - Give me the names of all ECE events.
+
+- intent: electrotactix_about
+  examples: |
+    - What is Electro-Tactix about?
+    - Give me a brief description of Electro-Tactix.
+    - What happens in the Electro-Tactix event?
+    - Can you explain Electro-Tactix?
+
+- intent: electrotactix_rules
+  examples: |
+    - What are the rules for Electro-Tactix?
+    - Explain the rules of Electro-Tactix.
+    - Are there any restrictions for Electro-Tactix?
+    - What is not allowed in Electro-Tactix?
+
+- intent: electrotactix_structure
+  examples: |
+    - What is the structure of Electro-Tactix?
+    - How is Electro-Tactix organized?
+    - Can you explain the rounds in Electro-Tactix?
+    - How many rounds are in Electro-Tactix?
+
+- intent: electrotactix_timeline
+  examples: |
+    - What is the schedule for Electro-Tactix?
+    - When will Electro-Tactix take place?
+    - Tell me the timeline for Electro-Tactix.
+    - What are the timings for each round in Electro-Tactix?
+
+- intent: electrotactix_contact
+  examples: |
+    - Who should I contact for Electro-Tactix?
+    - Give me the contact details for Electro-Tactix.
+    - Who are the coordinators for Electro-Tactix?
+    - How can I reach out regarding Electro-Tactix?
+
+- intent: crack_the_vault_about
+  examples: |
+    - What is Crack the Vault about?
+    - Describe Crack the Vault.
+    - What is the Crack the Vault competition?
+    - Can you give me details about Crack the Vault?
+
+- intent: crack_the_vault_rules
+  examples: |
+    - What are the rules for Crack the Vault?
+    - Explain the rules of Crack the Vault.
+    - Are there any restrictions for Crack the Vault?
+    - What guidelines should I follow in Crack the Vault?
+
+- intent: crack_the_vault_structure
+  examples: |
+    - What is the structure of Crack the Vault?
+    - How is Crack the Vault conducted?
+    - Explain the rounds in Crack the Vault.
+    - How many levels are in Crack the Vault?
+
+- intent: crack_the_vault_timeline
+  examples: |
+    - What is the schedule for Crack the Vault?
+    - When will Crack the Vault take place?
+    - Tell me the timeline for Crack the Vault.
+    - What are the timings for Crack the Vault?
+
+- intent: crack_the_vault_contact
+  examples: |
+    - Who should I contact for Crack the Vault?
+    - Give me the contact details for Crack the Vault.
+    - Who are the coordinators for Crack the Vault?
+    - How can I reach out regarding Crack the Vault?
+
+- intent: tictactech_about
+  examples: |
+    - What is TicTacTech about?
+    - Describe TicTacTech.
+    - What is the TicTacTech competition?
+    - Can you give me details about TicTacTech?
+
+- intent: tictactech_rules
+  examples: |
+    - What are the rules for TicTacTech?
+    - Explain the rules of TicTacTech.
+    - Are there any restrictions for TicTacTech?
+    - What guidelines should I follow in TicTacTech?
+
+- intent: tictactech_structure
+  examples: |
+    - What is the structure of TicTacTech?
+    - How is TicTacTech conducted?
+    - Explain the rounds in TicTacTech.
+    - How many levels are in TicTacTech?
+
+- intent: tictactech_timeline
+  examples: |
+    - What is the schedule for TicTacTech?
+    - When will TicTacTech take place?
+    - Tell me the timeline for TicTacTech.
+    - What are the timings for TicTacTech?
+
+- intent: tictactech_contact
+  examples: |
+    - Who should I contact for TicTacTech?
+    - Give me the contact details for TicTacTech.
+    - Who are the coordinators for TicTacTech?
+    - How can I reach out regarding TicTacTech?
+
+- intent: list_puc_events
+  examples: |
+      - What are the events in the PUC branch?
+      - List all events for PUC students.
+      - What competitions are available in PUC?
+      - Give me the names of all PUC events.
+
+- intent: puzzle_pinnacle_about
+  examples: |
+    - What is Puzzle Pinacle about?
+    - Give me a brief description of Puzzle Pinacle.
+    - What happens in the Puzzle Pinacle event?
+    - Can you explain Puzzle Pinacle?
+
+- intent: puzzle_pinnacle_rules
+  examples: |
+    - What are the rules for Puzzle Pinacle?
+    - Explain the rules of Puzzle Pinacle.
+    - Are there any restrictions for Puzzle Pinacle?
+    - What is not allowed in Puzzle Pinacle?
+
+- intent: puzzle_pinnacle_structure
+  examples: |
+    - What is the structure of Puzzle Pinacle?
+    - How is Puzzle Pinacle organized?
+    - Can you explain the rounds in Puzzle Pinacle?
+    - How many rounds are in Puzzle Pinacle?
+
+- intent: puzzle_pinnacle_timeline
+  examples: |
+    - What is the schedule for Puzzle Pinacle?
+    - When will Puzzle Pinacle take place?
+    - Tell me the timeline for Puzzle Pinacle.
+    - What are the timings for each round in Puzzle Pinacle?
+
+- intent: puzzle_pinnacle_contact
+  examples: |
+    - Who should I contact for Puzzle Pinacle?
+    - Give me the contact details for Puzzle Pinacle.
+    - Who are the coordinators for Puzzle Pinacle?
+    - How can I reach out regarding Puzzle Pinacle?
+
+- intent: icon_of_puc_about
+  examples: |
+    - What is Icon of PUC about?
+    - Describe Icon of PUC.
+    - What is the Icon of PUC competition?
+    - Can you give me details about Icon of PUC?
+
+- intent: icon_of_puc_rules
+  examples: |
+    - What are the rules for Icon of PUC?
+    - Explain the rules of Icon of PUC.
+    - Are there any restrictions for Icon of PUC?
+    - What guidelines should I follow in Icon of PUC?
+
+- intent: icon_of_puc_structure
+  examples: |
+    - What is the structure of Icon of PUC?
+    - How is Icon of PUC conducted?
+    - Explain the rounds in Icon of PUC.
+    - How many levels are in Icon of PUC?
+
+- intent: icon_of_puc_timeline
+  examples: |
+    - What is the schedule for Icon of PUC?
+    - When will Icon of PUC take place?
+    - Tell me the timeline for Icon of PUC.
+    - What are the timings for Icon of PUC?
+
+- intent: icon_of_puc_contact
+  examples: |
+    - Who should I contact for Icon of PUC?
+    - Give me the contact details for Icon of PUC.
+    - Who are the coordinators for Icon of PUC?
+    - How can I reach out regarding Icon of PUC?
+
+- intent: cinebot_about
+  examples: |
+    - What is CineBot about?
+    - Describe CineBot.
+    - What is the CineBot competition?
+    - Can you give me details about CineBot?
+
+- intent: cinebot_rules
+  examples: |
+    - What are the rules for CineBot?
+    - Explain the rules of CineBot.
+    - Are there any restrictions for CineBot?
+    - What guidelines should I follow in CineBot?
+
+- intent: cinebot_structure
+  examples: |
+    - What is the structure of CineBot?
+    - How is CineBot conducted?
+    - Explain the rounds in CineBot.
+    - How many levels are in CineBot?
+
+- intent: cinebot_timeline
+  examples: |
+    - What is the schedule for CineBot?
+    - When will CineBot take place?
+    - Tell me the timeline for CineBot.
+    - What are the timings for CineBot?
+
+- intent: cinebot_contact
+  examples: |
+    - Who should I contact for CineBot?
+    - Give me the contact details for CineBot.
+    - Who are the coordinators for CineBot?
+    - How can I reach out regarding CineBot?
+
+- intent: prompt_and_paint_about
+  examples: |
+    - What is Prompt and Paint about?
+    - Describe Prompt and Paint.
+    - What is the Prompt and Paint competition?
+    - Can you give me details about Prompt and Paint?
+
+- intent: prompt_and_paint_rules
+  examples: |
+    - What are the rules for Prompt and Paint?
+    - Explain the rules of Prompt and Paint.
+    - Are there any restrictions for Prompt and Paint?
+    - What guidelines should I follow in Prompt and Paint?
+
+- intent: prompt_and_paint_structure
+  examples: |
+    - What is the structure of Prompt and Paint?
+    - How is Prompt and Paint conducted?
+    - Explain the rounds in Prompt and Paint.
+    - How many levels are in Prompt and Paint?
+
+- intent: prompt_and_paint_timeline
+  examples: |
+    - What is the schedule for Prompt and Paint?
+    - When will Prompt and Paint take place?
+    - Tell me the timeline for Prompt and Paint.
+    - What are the timings for Prompt and Paint?
+
+- intent: prompt_and_paint_contact
+  examples: |
+    - Who should I contact for Prompt and Paint?
+    - Give me the contact details for Prompt and Paint.
+    - Who are the coordinators for Prompt and Paint?
+    - How can I reach out regarding Prompt and Paint?
+
+- intent: list_mme_events
+  examples: |
+      - What are the events in the MME branch?
+      - List all events for MME students.
+      - What competitions are available in MME?
+      - Give me the names of all MME events.
+
+- intent: metallography_about
+  examples: |
+      - What is Metallography about?
+      - Give me a brief description of Metallography.
+      - What happens in the Metallography event?
+      - Can you explain Metallography?
+
+- intent: metallography_rules
+  examples: |
+      - What are the rules for Metallography?
+      - Explain the rules of Metallography.
+      - Are there any restrictions for Metallography?
+      - What is not allowed in Metallography?
+
+- intent: metallography_structure
+  examples: |
+      - What is the structure of Metallography?
+      - How is Metallography organized?
+      - Can you explain the rounds in Metallography?
+      - How many rounds are in Metallography?
+
+- intent: metallography_timeline
+  examples: |
+      - What is the schedule for Metallography?
+      - When will Metallography take place?
+      - Tell me the timeline for Metallography.
+      - What are the timings for each round in Metallography?
+
+- intent: metallography_contact
+  examples: |
+      - Who should I contact for Metallography?
+      - Give me the contact details for Metallography.
+      - Who are the coordinators for Metallography?
+      - How can I reach out regarding Metallography?
+
+- intent: case_study_about
+  examples: |
+      - What is Case Study about?
+      - Describe the Case Study event.
+      - Can you give me details about Case Study?
+      - What do participants do in Case Study?
+
+- intent: case_study_rules
+  examples: |
+      - What are the rules for Case Study?
+      - Explain the rules of Case Study.
+      - Are there any restrictions for Case Study?
+      - What should participants bring for Case Study?
+
+- intent: case_study_structure
+  examples: |
+      - What is the structure of Case Study?
+      - How is Case Study conducted?
+      - Explain the process of Case Study.
+      - How is the winner decided in Case Study?
+
+- intent: case_study_timeline
+  examples: |
+      - What is the schedule for Case Study?
+      - When will Case Study take place?
+      - Tell me the timeline for Case Study.
+      - What are the timings for Case Study?
+
+- intent: case_study_contact
+  examples: |
+      - Who should I contact for Case Study?
+      - Give me the contact details for Case Study.
+      - Who are the coordinators for Case Study?
+      - How can I reach out regarding Case Study?
+
+- intent: escape_odyssey_about
+  examples: |
+      - What is Escape Odyssey about?
+      - Describe the Escape Odyssey event.
+      - Can you explain Escape Odyssey?
+      - What happens in Escape Odyssey?
+
+- intent: escape_odyssey_rules
+  examples: |
+      - What are the rules for Escape Odyssey?
+      - Explain the rules of Escape Odyssey.
+      - Are there any restrictions for Escape Odyssey?
+      - What should participants bring for Escape Odyssey?
+
+- intent: escape_odyssey_structure
+  examples: |
+      - What is the structure of Escape Odyssey?
+      - How is Escape Odyssey conducted?
+      - Explain the rounds in Escape Odyssey.
+      - How is the winner decided in Escape Odyssey?
+
+- intent: escape_odyssey_timeline
+  examples: |
+      - What is the schedule for Escape Odyssey?
+      - When will Escape Odyssey take place?
+      - Tell me the timeline for Escape Odyssey.
+      - What are the timings for Escape Odyssey?
+
+- intent: escape_odyssey_contact
+  examples: |
+      - Who should I contact for Escape Odyssey?
+      - Give me the contact details for Escape Odyssey.
+      - Who are the coordinators for Escape Odyssey?
+      - How can I reach out regarding Escape Odyssey?
+
+- intent: meta_x_word_about
+  examples: |
+      - What is Meta X Word about?
+      - Describe the Meta X Word event.
+      - Can you explain Meta X Word?
+      - What happens in Meta X Word?
+
+- intent: meta_x_word_rules
+  examples: |
+      - What are the rules for Meta X Word?
+      - Explain the rules of Meta X Word.
+      - Are there any restrictions for Meta X Word?
+      - What should participants bring for Meta X Word?
+
+- intent: meta_x_word_structure
+  examples: |
+      - What is the structure of Meta X Word?
+      - How is Meta X Word conducted?
+      - Explain the rounds in Meta X Word.
+      - How is the winner decided in Meta X Word?
+
+- intent: meta_x_word_timeline
+  examples: |
+      - What is the schedule for Meta X Word?
+      - When will Meta X Word take place?
+      - Tell me the timeline for Meta X Word.
+      - What are the timings for Meta X Word?
+
+- intent: meta_x_word_contact
+  examples: |
+      - Who should I contact for Meta X Word?
+      - Give me the contact details for Meta X Word.
+      - Who are the coordinators for Meta X Word?
+      - How can I reach out regarding Meta X Word?
+
+- intent: list_mech_events
+  examples: |
+      - What are the events in the MECH branch?
+      - List all events for Mechanical students.
+      - What competitions are available in Mechanical?
+      - Give me the names of all MECH events.
+
+- intent: assemble_disassemble_about
+  examples: |
+      - What is Assemble And Disassemble about?
+      - Give me a brief description of Assemble And Disassemble.
+      - What happens in the Assemble And Disassemble event?
+      - Can you explain the Assemble And Disassemble event?
+
+- intent: assemble_disassemble_rules
+  examples: |
+      - What are the rules for Assemble And Disassemble?
+      - Explain the rules of Assemble And Disassemble.
+      - Are there any restrictions for Assemble And Disassemble?
+      - What is not allowed in Assemble And Disassemble?
+
+- intent: assemble_disassemble_structure
+  examples: |
+      - What is the structure of Assemble And Disassemble?
+      - How is Assemble And Disassemble organized?
+      - Can you explain the rounds in Assemble And Disassemble?
+      - How many rounds are in Assemble And Disassemble?
+
+- intent: assemble_disassemble_timeline
+  examples: |
+      - What is the schedule for Assemble And Disassemble?
+      - When will Assemble And Disassemble take place?
+      - Tell me the timeline for Assemble And Disassemble.
+      - What are the timings for each round in Assemble And Disassemble?
+
+- intent: assemble_disassemble_contact
+  examples: |
+      - Who should I contact for Assemble And Disassemble?
+      - Give me the contact details for Assemble And Disassemble.
+      - Who are the coordinators for Assemble And Disassemble?
+      - How can I reach out regarding Assemble And Disassemble?
+
+- intent: logo_auction_about
+  examples: |
+      - What is Logo Auction about?
+      - Give me a brief description of Logo Auction.
+      - What happens in the Logo Auction event?
+      - Can you explain the Logo Auction event?
+
+- intent: logo_auction_rules
+  examples: |
+      - What are the rules for Logo Auction?
+      - Explain the rules of Logo Auction.
+      - Are there any restrictions for Logo Auction?
+      - What is not allowed in Logo Auction?
+
+- intent: logo_auction_structure
+  examples: |
+      - What is the structure of Logo Auction?
+      - How is Logo Auction organized?
+      - Can you explain the rounds in Logo Auction?
+      - How does bidding work in Logo Auction?
+
+- intent: logo_auction_timeline
+  examples: |
+      - What is the schedule for Logo Auction?
+      - When will Logo Auction take place?
+      - Tell me the timeline for Logo Auction.
+      - What are the timings for Logo Auction?
+
+- intent: logo_auction_contact
+  examples: |
+      - Who should I contact for Logo Auction?
+      - Give me the contact details for Logo Auction.
+      - Who are the coordinators for Logo Auction?
+      - How can I reach out regarding Logo Auction?
+
+- intent: cadomania_about
+  examples: |
+      - What is CADomania about?
+      - Give me a brief description of CADomania.
+      - What happens in the CADomania event?
+      - Can you explain the CADomania event?
+
+- intent: cadomania_rules
+  examples: |
+      - What are the rules for CADomania?
+      - Explain the rules of CADomania.
+      - Are there any restrictions for CADomania?
+      - What is not allowed in CADomania?
+
+- intent: cadomania_structure
+  examples: |
+      - What is the structure of CADomania?
+      - How is CADomania organized?
+      - What software is used in CADomania?
+      - What are the tasks in CADomania?
+
+- intent: cadomania_timeline
+  examples: |
+      - What is the schedule for CADomania?
+      - When will CADomania take place?
+      - Tell me the timeline for CADomania.
+      - What are the timings for CADomania?
+
+- intent: cadomania_contact
+  examples: |
+      - Who should I contact for CADomania?
+      - Give me the contact details for CADomania.
+      - Who are the coordinators for CADomania?
+      - How can I reach out regarding CADomania?
+
+- intent: mech_craft_about
+  examples: |
+      - What is Mech Craft about?
+      - Give me a brief description of Mech Craft.
+      - What happens in the Mech Craft event?
+      - Can you explain the Mech Craft event?
+
+- intent: mech_craft_rules
+  examples: |
+      - What are the rules for Mech Craft?
+      - Explain the rules of Mech Craft.
+      - Are there any restrictions for Mech Craft?
+      - What is not allowed in Mech Craft?
+
+- intent: mech_craft_structure
+  examples: |
+      - What is the structure of Mech Craft?
+      - How is Mech Craft organized?
+      - How many rounds are in Mech Craft?
+      - What do participants need to do in Mech Craft?
+
+- intent: mech_craft_timeline
+  examples: |
+      - What is the schedule for Mech Craft?
+      - When will Mech Craft take place?
+      - Tell me the timeline for Mech Craft.
+      - What are the timings for Mech Craft?
+
+- intent: mech_craft_contact
+  examples: |
+      - Who should I contact for Mech Craft?
+      - Give me the contact details for Mech Craft.
+      - Who are the coordinators for Mech Craft?
+      - How can I reach out regarding Mech Craft?
+
+- intent: list_eee_events
+  examples: |
+      - What are the events in the EEE branch?
+      - List all events for Electrical students.
+      - What competitions are available in Electrical Engineering?
+      - Give me the names of all EEE events.
+
+- intent: voltage_vault_about
+  examples: |
+      - What is Voltage Vault about?
+      - Give me a brief description of Voltage Vault.
+      - What happens in the Voltage Vault event?
+      - Can you explain the Voltage Vault event?
+
+- intent: voltage_vault_rules
+  examples: |
+      - What are the rules for Voltage Vault?
+      - Explain the rules of Voltage Vault.
+      - Are there any restrictions for Voltage Vault?
+      - What is not allowed in Voltage Vault?
+
+- intent: voltage_vault_structure
+  examples: |
+      - What is the structure of Voltage Vault?
+      - How is Voltage Vault organized?
+      - Can you explain the rounds in Voltage Vault?
+      - How many rounds are in Voltage Vault?
+
+- intent: voltage_vault_timeline
+  examples: |
+      - What is the schedule for Voltage Vault?
+      - When will Voltage Vault take place?
+      - Tell me the timeline for Voltage Vault.
+      - What are the timings for each round in Voltage Vault?
+
+- intent: voltage_vault_contact
+  examples: |
+      - Who should I contact for Voltage Vault?
+      - Give me the contact details for Voltage Vault.
+      - Who are the coordinators for Voltage Vault?
+      - How can I reach out regarding Voltage Vault?
+
+- intent: unlock_unknown_about
+  examples: |
+      - What is Unlock The Unknown about?
+      - Give me a brief description of Unlock The Unknown.
+      - What happens in the Unlock The Unknown event?
+      - Can you explain the Unlock The Unknown event?
+
+- intent: unlock_unknown_rules
+  examples: |
+      - What are the rules for Unlock The Unknown?
+      - Explain the rules of Unlock The Unknown.
+      - Are there any restrictions for Unlock The Unknown?
+      - What is not allowed in Unlock The Unknown?
+
+- intent: unlock_unknown_structure
+  examples: |
+      - What is the structure of Unlock The Unknown?
+      - How is Unlock The Unknown organized?
+      - Can you explain the rounds in Unlock The Unknown?
+      - How many rounds are in Unlock The Unknown?
+
+- intent: unlock_unknown_timeline
+  examples: |
+      - What is the schedule for Unlock The Unknown?
+      - When will Unlock The Unknown take place?
+      - Tell me the timeline for Unlock The Unknown.
+      - What are the timings for each round in Unlock The Unknown?
+
+- intent: unlock_unknown_contact
+  examples: |
+      - Who should I contact for Unlock The Unknown?
+      - Give me the contact details for Unlock The Unknown.
+      - Who are the coordinators for Unlock The Unknown?
+      - How can I reach out regarding Unlock The Unknown?
+
+- intent: brightest_mind_about
+  examples: |
+      - What is Brightest Mind about?
+      - Give me a brief description of Brightest Mind.
+      - What happens in the Brightest Mind event?
+      - Can you explain the Brightest Mind event?
+
+- intent: brightest_mind_rules
+  examples: |
+      - What are the rules for Brightest Mind?
+      - Explain the rules of Brightest Mind.
+      - Are there any restrictions for Brightest Mind?
+      - What is not allowed in Brightest Mind?
+
+- intent: brightest_mind_structure
+  examples: |
+      - What is the structure of Brightest Mind?
+      - How is Brightest Mind organized?
+      - Can you explain the rounds in Brightest Mind?
+      - How many rounds are in Brightest Mind?
+
+- intent: brightest_mind_timeline
+  examples: |
+      - What is the schedule for Brightest Mind?
+      - When will Brightest Mind take place?
+      - Tell me the timeline for Brightest Mind.
+      - What are the timings for each round in Brightest Mind?
+
+- intent: brightest_mind_contact
+  examples: |
+      - Who should I contact for Brightest Mind?
+      - Give me the contact details for Brightest Mind.
+      - Who are the coordinators for Brightest Mind?
+      - How can I reach out regarding Brightest Mind?
+
+- intent: energy_odyssey_about
+  examples: |
+      - What is Energy Odyssey about?
+      - Give me a brief description of Energy Odyssey.
+      - What happens in the Energy Odyssey event?
+      - Can you explain the Energy Odyssey event?
+
+- intent: energy_odyssey_rules
+  examples: |
+      - What are the rules for Energy Odyssey?
+      - Explain the rules of Energy Odyssey.
+      - Are there any restrictions for Energy Odyssey?
+      - What is not allowed in Energy Odyssey?
+
+- intent: energy_odyssey_structure
+  examples: |
+      - What is the structure of Energy Odyssey?
+      - How is Energy Odyssey organized?
+      - Can you explain the rounds in Energy Odyssey?
+      - How many rounds are in Energy Odyssey?
+
+- intent: energy_odyssey_timeline
+  examples: |
+      - What is the schedule for Energy Odyssey?
+      - When will Energy Odyssey take place?
+      - Tell me the timeline for Energy Odyssey.
+      - What are the timings for each round in Energy Odyssey?
+
+- intent: energy_odyssey_contact
+  examples: |
+      - Who should I contact for Energy Odyssey?
+      - Give me the contact details for Energy Odyssey.
+      - Who are the coordinators for Energy Odyssey?
+      - How can I reach out regarding Energy Odyssey?
+
+- intent: registration_process
+  examples: |
+    - How do I register for the event?
+    - What is the registration process for Teckzite?
+    - Can you explain the steps to register?
+    - How can I sign up for the event?
+    - Tell me the procedure for registration.
+    - What are the steps to complete registration?
+
+- intent: registration_payment
+  examples: |
+    - How much do I need to pay for registration?
+    - What is the registration fee for Teckzite?
+    - How do I make the payment after registration?
+    - When do I need to pay the registration fee?
+    - Is there a fee for participating in Teckzite?
+    - Explain Step 3 of the registration process.
+    - What are the payment options available?
+
+- intent: event_location
+  examples: |
+    - Where is the event being held?
+    - What is the venue for Teckzite?
+    - Where will Teckzite take place?
+    - Can you tell me the event location?
+    - What is the address of the event venue?
+
+- intent: event_dates
+  examples: |
+    - When is Teckzite happening?
+    - What are the dates for the Teckzite event?
+    - When will Teckzite take place?
+    - Give me the schedule of Teckzite.
+    - What are the event dates for Teckzite?
+
+- intent: event_theme
+  examples: |
+    - What is the theme of Teckzite?
+    - What is this year's theme for Teckzite?
+    - Can you tell me the theme of Teckzite 2025?
+    - What is the main focus of Teckzite?
+    - What is the central theme of the event?
+
+
+#########
+- intent: about_teckzite
+  examples: |
+    - What is Teckzite?
+    - Tell me about Teckzite.
+    - Can you explain what Teckzite is?
+    - Give me a brief overview of Teckzite.
+    - What does Teckzite stand for?
+    - Describe Teckzite in a few words.
+
+- intent: teckzite_theme
+  examples: |
+    - What is the theme of Teckzite this year?
+    - What is the main concept of Teckzite?
+    - What is the focus of Teckzite this year?
+    - Tell me about the theme of Teckzite.
+    - What is the special theme for this year’s event?
+    - Is there any specific topic for Teckzite 2025?
+
+- intent: teckzite_duration
+  examples: |
+    - How long does Teckzite last?
+    - What is the duration of Teckzite?
+    - How many days is Teckzite?
+    - When does Teckzite start and end?
+    - How many nights does Teckzite include?
+
+- intent: teckzite_event_categories
+  examples: |
+    - What types of events are in Teckzite?
+    - What kind of competitions does Teckzite have?
+    - What are the different categories of events in Teckzite?
+    - Can you list the main events of Teckzite?
+    - What activities are available in Teckzite?
+    - What kind of challenges are part of Teckzite?
+
+- intent: teckzite_coding_events
+  examples: |
+    - What coding competitions are available at Teckzite?
+    - Are there any coding challenges in Teckzite?
+    - Does Teckzite have programming contests?
+    - What are the coding-related events in Teckzite?
+    - Which events involve coding and problem-solving?
+
+- intent: teckzite_robotics_events
+  examples: |
+    - Are there any robotics competitions in Teckzite?
+    - What robotics-related events are in Teckzite?
+    - Can I participate in a robotics challenge at Teckzite?
+    - Tell me about the robot-building contests in Teckzite.
+    - Are there drone or AI-related robotics events?
+
+- intent: teckzite_hackathons
+  examples: |
+    - Does Teckzite have hackathons?
+    - Are there any hackathons in Teckzite?
+    - What hackathons are available at Teckzite?
+    - Can I participate in a hackathon at Teckzite?
+    - What are the themes of hackathons in Teckzite?
+
+- intent: teckzite_workshops
+  examples: |
+    - What workshops are available at Teckzite?
+    - Are there any technical workshops at Teckzite?
+    - Can I attend workshops in Teckzite?
+    - What kind of seminars and workshops are there?
+    - Are there hands-on workshops in Teckzite?
+
+- intent: teckzite_gaming_events
+  examples: |
+    - Are there gaming zones in Teckzite?
+    - What gaming competitions are held in Teckzite?
+    - Can I participate in gaming tournaments at Teckzite?
+    - Is there an esports competition at Teckzite?
+    - Are there any Free Fire or BGMI tournaments?
+
+- intent: teckzite_cultural_events
+  examples: |
+    - Does Teckzite include cultural performances?
+    - Are there any dance or music performances at Teckzite?
+    - Is there a cultural night in Teckzite?
+    - What are the cultural activities at Teckzite?
+    - Are there any celebrity performances?
+
+- intent: teckzite_guest_speakers
+  examples: |
+    - Who are the guest speakers at Teckzite?
+    - Are there any celebrity speakers at Teckzite?
+    - Will there be keynote speeches at Teckzite?
+    - Are industry experts attending Teckzite?
+    - Can I attend talks by professionals at Teckzite?
+
+- intent: teckzite_metaverse_theme
+  examples: |
+    - What does the Metaverse theme mean in Teckzite?
+    - How is Teckzite related to Virtual Reality?
+    - Is Teckzite focused on AI and VR?
+    - Will there be Augmented Reality (AR) experiences in Teckzite?
+    - How does the Metaverse theme affect the event structure?
+
+- intent: teckzite_registration
+  examples: |
+    - How do I register for Teckzite?
+    - Where can I sign up for Teckzite?
+    - Do I need to register online for Teckzite?
+    - Is there an entry fee for Teckzite?
+    - What are the steps to register for Teckzite?
+
+
+- intent: workshop_advanced_materials
+  examples: |
+    - Tell me about the Advanced Materials workshop.
+    - What is the National Workshop on Advanced Materials and Process Simulation?
+    - Can you explain the details of the Advanced Materials workshop?
+    - Who are the instructors for the Advanced Materials workshop?
+    - What is the fee for the Advanced Materials workshop?
+    - When is the Advanced Materials workshop happening?
+    - What is the timing for the Advanced Materials workshop?
+    - Which department is organizing the Advanced Materials workshop?
+    - How can I contact the organizers of the Advanced Materials workshop?
+
+- intent: workshop_mech_craft
+  examples: |
+    - Can you provide details about the Mech Craft workshop?
+    - What activities are included in the Mech Craft event?
+    - What is the team size for Mech Craft?
+    - How much is the registration fee for Mech Craft?
+    - Where is the Mech Craft event being held?
+    - What is the timing for the Mech Craft workshop?
+    - Who are the contact persons for Mech Craft?
+    - How do I register for Mech Craft?
+    - What is the venue for the Mech Craft workshop?
+
+- intent: teckzite_workshop_registration
+  examples: |
+    - How do I register for workshops at Teckzite?
+    - Where can I sign up for Teckzite workshops?
+    - What is the registration process for Teckzite workshops?
+    - Can I register for multiple workshops at Teckzite?
+    - Is there an online registration for Teckzite workshops?
+    - Do I need to pay a fee to attend workshops at Teckzite?
+    - How can I confirm my workshop registration?
+    - Where can I find the registration link for Teckzite workshops?
+    - Is there a deadline for workshop registrations?
+    
+- intent: teckzite_workshop_fees
+  examples: |
+    - What is the fee structure for Teckzite workshops?
+    - How much does it cost to attend a workshop at Teckzite?
+    - Are there any discounts for T2 registered students in workshops?
+    - Is the workshop fee refundable?
+    - What payment methods are accepted for workshop registration?
+    - Are there any free workshops at Teckzite?
+    - Can I pay for workshops on the event day?
+    
+- intent: teckzite_workshop_schedule
+  examples: |
+    - When do the workshops start at Teckzite?
+    - Can you provide the timing for the Advanced Materials workshop?
+    - What time does Mech Craft begin?
+    - How long do the workshops last at Teckzite?
+    - Is there a lunch break during the workshops?
+    - Are workshops held on multiple days?
+    - What are the morning and afternoon session timings for workshops?
+
+- intent: teckzite_workshop_instructors
+  examples: |
+    - Can you tell me about the workshop speakers?
+    - Are there any guest instructors in the Teckzite workshops?
+    - What is the background of the workshop instructors?
+    - Who will be teaching in the Mech Craft workshop?
+    - Are the instructors from IIT or any universities?
+    - Can I interact with the instructors during the workshop?
+    
+- intent: teckzite_workshop_contact
+  examples: |
+    - Who should I contact for workshop-related queries?
+    - How can I reach out for workshop registration assistance?
+    - Can I get the contact details for the Advanced Materials workshop?
+    - Who is the coordinator for the Mech Craft workshop?
+    - Is there a helpline for Teckzite workshops?
+    - Can I call the organizers for workshop details?
+    - Where can I find contact information for workshop registration?
+
+
+- intent: inquire_top_referrals
+  examples: |
+    - Who are the top referrals?
+    - List the top referrals in Teckzite.
+    - Can you show me the referral leaderboard?
+    - Who has the highest number of referrals?
+    - Give me the names of the top referrers.
+
+- intent: inquire_referral_count
+  examples: |
+    - How many referrals does Amruth have?
+    - What is the referral count for Varun Sandesh?
+    - Tell me the number of referrals for Danaiah.
+    - How many referrals did Govardhana Nayudu make?
+    - What is the referral count for CHERUGATI VIJAYA?
+
+- intent: inquire_referral_email
+  examples: |
+    - What is the email ID of Amruth?
+    - Give me the email of Varun Sandesh.
+    - How can I contact Danaiah via email?
+    - Provide the email ID for Naga Sai Harsha.
+    - What is the registered email of Teja Abhinayasri?
+    - Show me the email address of Sruthibhanu.
+    - Can you tell me the email of Hemeswar?
+
+
+
+- intent: inquire_sponsorship_categories
+  examples: |
+    - What are the sponsorship categories in Teckzite?
+    - Can you list the sponsors for Teckzite?
+    - Who are the sponsors for this year’s event?
+    - Tell me about the sponsorship categories.
+    - Which companies are sponsoring Teckzite?
+
+- intent: inquire_digital_media_sponsor
+  examples: |
+    - Who is the Digital and Media Sponsor?
+    - Which company is sponsoring the digital and media category?
+    - Tell me the name of the media sponsor for Teckzite.
+    - Who is the official digital partner of Teckzite?
+    - Is there a media sponsor for the event?
+
+- intent: inquire_event_booster
+  examples: |
+    - Who is the Event Booster sponsor?
+    - Which company is boosting the event?
+    - Can you tell me about the Event Booster category?
+    - Which organization is supporting the event as a booster?
+
+- intent: inquire_overseas_education_sponsor
+  examples: |
+    - Who is the Overseas Education Sponsor?
+    - Which consultancy is sponsoring overseas education?
+    - Tell me about the sponsor for overseas education.
+    - Is there a sponsor for international education guidance?
+
+- intent: inquire_education_partner
+  examples: |
+    - Who is the Education Partner of Teckzite?
+    - Which academy is sponsoring education?
+    - Can you tell me about the education sponsor?
+    - Who is providing educational support for Teckzite?
+
+- intent: inquire_skill_development_partner
+  examples: |
+    - Who is the Skill Development Partner?
+    - Which organization is sponsoring skill development?
+    - Tell me about the skill development sponsor.
+    - Is there a company supporting skill enhancement at Teckzite?
+
+- intent: inquire_devops_cloud_partner
+  examples: |
+    - Who is the DevOps and Cloud Partner?
+    - Which company is sponsoring DevOps and cloud technologies?
+    - Can you tell me about the cloud partner for Teckzite?
+    - Is there a DevOps sponsor for the event?
+
+- intent: inquire_edtech_partner
+  examples: |
+    - Who is the EdTech Partner?
+    - Which EdTech company is sponsoring Teckzite?
+    - Tell me about the EdTech sponsor.
+    - Is there an education technology partner for the event?
+
+
+- intent: inquire_workshops_list
+  examples: |
+    - What are the workshops available at Teckzite?
+    - Can you list all the workshops?
+    - What workshops are being conducted?
+    - Give me the list of workshops at Teckzite.
+    - Tell me about the available workshops.
+
+- intent: inquire_advanced_materials_workshop
+  examples: |
+    - Tell me about the Advanced Materials and Process Simulation workshop.
+    - What is the Advanced Materials workshop about?
+    - Who are the speakers for the Advanced Materials workshop?
+    - When is the Advanced Materials workshop scheduled?
+    - Where is the Advanced Materials workshop happening?
+    - How much does the Advanced Materials workshop cost?
+    - Who can I contact for the Advanced Materials workshop?
+
+- intent: inquire_machine_learning_workshop
+  examples: |
+    - Tell me about the Machine Learning: Music Separation & Speech Enhancement workshop.
+    - What is covered in the Machine Learning workshop?
+    - Who is the speaker for the Machine Learning workshop?
+    - When will the Machine Learning workshop be held?
+    - Where is the Machine Learning workshop taking place?
+    - What is the fee for the Machine Learning workshop?
+    - Who can I contact for the Machine Learning workshop?
+
+- intent: inquire_sketchup_bim_workshop
+  examples: |
+    - Tell me about the SketchUp BIM workshop.
+    - What topics are covered in the SketchUp BIM workshop?
+    - Who is the instructor for the SketchUp BIM workshop?
+    - When is the SketchUp BIM workshop scheduled?
+    - Where will the SketchUp BIM workshop be conducted?
+    - What is the registration fee for the SketchUp BIM workshop?
+    - Who can I contact for the SketchUp BIM workshop?
+
+- intent: inquire_workshop_registration
+  examples: |
+    - How can I register for a workshop at Teckzite?
+    - Where do I sign up for Teckzite workshops?
+    - What is the registration process for the workshops?
+    - Do I need to register online for the workshops?
+    - Is there a website to register for the workshops?
+
+- intent: inquire_workshop_fees
+  examples: |
+    - What are the fees for Teckzite workshops?
+    - How much does a workshop cost?
+    - Are there discounts for registered Teckzite students?
+    - What is the fee structure for workshops?
+    - Are workshops free or paid?
+
+- intent: inquire_workshop_schedule
+  examples: |
+    - What is the schedule for Teckzite workshops?
+    - When are the workshops happening?
+    - Give me the timings for all workshops.
+    - What are the workshop time slots?
+    - Can you tell me the workshop dates and times?
+
+- intent: inquire_workshop_contacts
+  examples: |
+    - Who can I contact for workshop-related queries?
+    - Give me the contact details for the workshops.
+    - Who is the organizer for the workshops?
+    - Provide the contact number for workshop inquiries.
+    - How can I get in touch regarding workshop registration?
+
+
+- intent: inquire_hackathon_details
+  examples: |
+    - What is the Teckzite Hackathon about?
+    - Tell me about the hackathons at Teckzite.
+    - What are the hackathon tracks in Teckzite?
+    - Give me an overview of the Teckzite'25 Hackathon.
+    - How does the hackathon at RGUKT Nuzvid work?
+
+- intent: inquire_hackathon_perks
+  examples: |
+    - What are the benefits of participating in the hackathon?
+    - What perks do participants get in Teckzite Hackathon?
+    - Why should I join the hackathon?
+    - Do participants get mentorship and industry exposure?
+    - Will there be networking opportunities in the hackathon?
+
+- intent: inquire_ai_hackathon_details
+  examples: |
+    - Tell me about the AI Hackathon.
+    - What themes are covered in the AI Hackathon?
+    - What are the rounds in the AI Hackathon?
+    - What is the AI Receptionist problem statement?
+    - How do I participate in the AI Hackathon?
+    - When does the AI Hackathon start and end?
+
+- intent: inquire_robothon_details
+  examples: |
+    - Tell me about the Robothon event.
+    - What happens in Robothon?
+    - What are the rules for Robothon?
+    - How does the Robothon competition work?
+    - What tasks are included in the Robothon challenge?
+
+- intent: inquire_hackathon_rounds
+  examples: |
+    - How many rounds are there in the hackathon?
+    - What are the stages of the hackathon?
+    - Tell me about Round 1 and Round 2 in the AI Hackathon.
+    - What do participants do in Round 2 of Robothon?
+    - Is there a final presentation in the hackathon?
+
+- intent: inquire_hackathon_schedule
+  examples: |
+    - What is the schedule of the hackathon?
+    - When does the hackathon start and end?
+    - Can you provide the hackathon timeline?
+    - What happens on Day 1 and Day 2 of the hackathon?
+    - When does coding start in the hackathon?
+
+- intent: inquire_hackathon_prize_pool
+  examples: |
+    - What is the prize for winning the hackathon?
+    - How much is the total prize pool for the hackathon?
+    - Are there rewards for top performers in the hackathon?
+    - Will winners receive additional support?
+    - What kind of prizes are there for the hackathon?
+
+- intent: inquire_hackathon_facilities
+  examples: |
+    - Are there accommodations for hackathon participants?
+    - Will food be provided during the hackathon?
+    - What facilities are available for hackathon participants?
+    - Is there free accommodation for all participants?
+    - Will meals be available on campus for the hackathon?
+
+- intent: inquire_hackathon_collaborators
+  examples: |
+    - Who are the partners for the hackathon?
+    - Which organizations are collaborating for Teckzite Hackathon?
+    - Who are the AI partners for the hackathon?
+    - Which companies are supporting the hackathon?
+    - Is Amotion AI a partner for the hackathon?
+
+- intent: inquire_hackathon_registration
+  examples: |
+    - How can I register for the hackathon?
+    - Where do I sign up for Teckzite Hackathon?
+    - What is the registration process for the hackathon?
+    - Is there a link to register for the hackathon?
+    - Do I need to register online for the hackathon?
+
+- intent: inquire_hackathon_contact
+  examples: |
+    - Who can I contact for hackathon-related queries?
+    - Give me the contact details for the hackathon.
+    - Who are the coordinators for the AI Hackathon?
+    - How can I reach out for hackathon questions?
+    - Provide the contact number for Robothon inquiries.
+
+- intent: inquire_web_team
+  examples: |
+    - Who is part of the web team?
+    - Can you give me details about the web team?
+    - Who manages the web team?
+    - List all the members of the web team.
+    - Who is the web team manager?
+    - Tell me about the frontend developers in the web team.
+    - List the backend developers in the web team.
+    - Who is responsible for app development in the web team?
+
+- intent: inquire_core_team
+  examples: |
+    - Who is in the core team?
+    - Can you list the members of the core team?
+    - Tell me about the core team leaders.
+    - Who is the student convenor of the core team?
+    - Who is the student co-convenor?
+    - Who is the student treasurer?
+    - Give me the names of the events and marketing coordinators.
+    - Who is in charge of marketing in the core team?
+    - Who are the workshop coordinators?
+    - List the project expo coordinators.
+    - Tell me about the promotions and hospitality coordinators.
+    - Who are the design and technical support coordinators?
+    - Who is responsible for cultural and content creation?
+    - Who is in charge of photography and open events?
+    - Who is the web team coordinator in the core team?
+    - Who is the app coordinator?
+
+- intent: inquire_web_team_manager
+  examples: |
+    - Who is the manager of the web team?
+    - Who leads the web team?
+    - Who is responsible for managing the web team?
+
+- intent: inquire_frontend_developers
+  examples: |
+    - Who are the frontend developers in the web team?
+    - List all the frontend developers.
+    - Tell me about the frontend team in web development.
+
+- intent: inquire_ui_ux_designers
+  examples: |
+    - Who are the UI/UX designers in the web team?
+    - Who is responsible for UI/UX design in the web team?
+    - List the UX designers.
+
+- intent: inquire_backend_developer
+  examples: |
+    - Who is the backend developer in the web team?
+    - List the backend developers in the team.
+    - Who manages backend development in the web team?
+
+- intent: inquire_fullstack_developers
+  examples: |
+    - Who are the full-stack developers in the web team?
+    - List all the full-stack developers.
+    - Tell me about the full-stack development team.
+
+- intent: inquire_app_developer
+  examples: |
+    - Who is the app developer in the web team?
+    - Who develops mobile applications in the team?
+    - List the app developers.
+
+- intent: inquire_events_marketing
+  examples: |
+    - Who are the event and marketing coordinators?
+    - Tell me about the marketing team.
+    - Who is responsible for marketing in the core team?
+
+- intent: inquire_workshop_project_expo
+  examples: |
+    - Who is handling the workshops?
+    - List the workshop coordinators.
+    - Who is responsible for the project expo?
+    - Tell me about the project expo coordinators.
+
+- intent: inquire_promotions_hospitality
+  examples: |
+    - Who is responsible for promotions and hospitality?
+    - List the hospitality coordinators.
+    - Who are the promotions coordinators in the core team?
+
+- intent: inquire_design_technical_support
+  examples: |
+    - Who is in charge of design and technical support?
+    - Who are the design coordinators?
+    - Tell me about the technical assistance team.
+
+- intent: inquire_cultural_content
+  examples: |
+    - Who is responsible for cultural events?
+    - Who are the cultural coordinators?
+    - List the content writing coordinators.
+    - Who is handling video editing in the core team?
+
+- intent: inquire_photography_open_events
+  examples: |
+    - Who is the photography coordinator?
+    - Tell me about the open events team.
+    - Who are the open event coordinators?
+
+- intent: inquire_disciplinary_team
+  examples: |
+    - Who are the disciplinary coordinators?
+    - Who is responsible for maintaining discipline in the core team?
+    - List the disciplinary coordinators.
+
+- intent: inquire_megaexpo_registration
+  examples: |
+    - How do I register for MegaExpo?
+    - What is the registration process for MegaExpo?
+    - Is registration mandatory for MegaExpo?
+    - Where can I sign up for MegaExpo?
+    - Can I participate in MegaExpo without registering for Teckzite?
+
+- intent: inquire_megaexpo_timeline
+  examples: |
+    - What is the schedule for MegaExpo'25?
+    - When does MegaExpo start and end?
+    - What are the important dates for MegaExpo?
+    - When is the final round of MegaExpo?
+    - When should we submit our prototypes for MegaExpo?
+
+- intent: inquire_megaexpo_judging_criteria
+  examples: |
+    - How will MegaExpo projects be judged?
+    - What are the evaluation criteria for MegaExpo?
+    - What factors determine the winning projects?
+    - What do judges look for in MegaExpo projects?
+    - How can my project score well in MegaExpo?
+
+- intent: inquire_megaexpo_submission_guidelines
+  examples: |
+    - What are the submission guidelines for MegaExpo?
+    - How should I submit my project report for MegaExpo?
+    - What format should the project report be in?
+    - What details should I include in my submission?
+    - Where can I submit my MegaExpo project?
+
+- intent: inquire_megaexpo_team_size
+  examples: |
+    - How many members can be in a MegaExpo team?
+    - What is the minimum team size for MegaExpo?
+    - What is the maximum team size for MegaExpo?
+    - Can an individual participate in MegaExpo?
+    - Are teams mandatory for MegaExpo participation?
+
+- intent: inquire_megaexpo_problem_statements
+  examples: |
+    - What are the problem statements in MegaExpo?
+    - Can you list the project themes for MegaExpo?
+    - What are the focus areas of MegaExpo projects?
+    - Give me examples of problem statements in MegaExpo.
+    - What kinds of challenges are part of MegaExpo?
+
+- intent: inquire_megaexpo_rounds
+  examples: |
+    - How many rounds are there in MegaExpo?
+    - What is the structure of MegaExpo?
+    - Can you explain the rounds of MegaExpo?
+    - How does the evaluation process work in MegaExpo?
+    - What are the different phases of MegaExpo?
+
+- intent: inquire_megaexpo_details
+  examples: |
+    - What is MegaExpo'25?
+    - Tell me about the MegaExpo event.
+    - Can you provide details on MegaExpo'25?
+    - What is the purpose of MegaExpo?
+    - Explain the concept of MegaExpo.
