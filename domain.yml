@@ -1480,7 +1480,7 @@ responses:
 
 actions:
   - action_default_fallback
-  
+  - action_generate_personalized_response
 entities:
 - event_rules
 - selection_criteria
