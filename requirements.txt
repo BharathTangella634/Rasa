@@ -46,3 +46,5 @@ typing-extensions
 setuptools
 wheel
 pip
+
+dotenv
