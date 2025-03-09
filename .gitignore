@@ -1,0 +1,18 @@
+# Standard Ignores
+venv
+__pycache__/
+.DS_Store
+.vscode/
+.history/
+.pytype/
+
+# Rasa Ignores
+credentials.yml
+*.db-*
+rasa.db*
+*.db
+results/
+models/
+snow_connector.py
+chatroom/
+.idea/

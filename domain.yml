@@ -1,0 +1,1560 @@
+version: "3.0"
+
+intents:
+  - open_to_all_events
+  # - event_details
+  # - event_registration
+  - event_rules
+  - event_structure
+  - event_timeline
+  - event_contact
+  # - general_event_inquiry
+  - inquire_about_bis_quiz
+  - inquire_about_ipl_auction
+  - inquire_about_free_fire
+  - inquire_about_envision_ias_test
+  - inquire_about_squid_zone
+  - list_chemical_events
+  - chem_ai_quest_info
+  - chem_ai_quest_rules
+  - chem_ai_quest_structure
+  - chem_ai_quest_timeline
+  - visionary_young_info
+  - visionary_young_rules
+  - visionary_young_structure
+  - visionary_young_timeline
+  - alchemy_empire_info
+  - alchemy_empire_rules
+  - alchemy_empire_structure
+  - alchemy_empire_timeline
+  - final_key_info
+  - final_key_rules
+  - final_key_structure
+  - final_key_timeline
+  - list_cse_events
+  - algohustle_about
+  - algohustle_rules
+  - algohustle_structure
+  - algohustle_timeline
+  - algohustle_contact
+  - sql_escape_room_about
+  - sql_escape_room_rules
+  - sql_escape_room_structure
+  - sql_escape_room_timeline
+  - sql_escape_room_contact
+  - techenigma_about
+  - techenigma_rules
+  - techenigma_structure
+  - techenigma_timeline
+  - techenigma_contact
+  - list_civil_events
+  - cad_maestro_about
+  - cad_maestro_rules
+  - cad_maestro_structure
+  - cad_maestro_timeline
+  - cad_maestro_contact
+  - civivision_about
+  - civivision_rules
+  - civivision_structure  
+  - civivision_timeline
+  - civivision_contact
+  - porous_potential_about
+  - porous_potential_rules
+  - porous_potential_structure
+  - porous_potential_timeline
+  - porous_potential_contact
+  - list_ece_events
+  - electrotactix_about
+  - electrotactix_rules
+  - electrotactix_structure
+  - electrotactix_timeline
+  - electrotactix_contact
+  - crack_the_vault_about
+  - crack_the_vault_rules
+  - crack_the_vault_structure
+  - crack_the_vault_timeline
+  - crack_the_vault_contact
+  - tictactech_about
+  - tictactech_rules
+  - tictactech_structure
+  - tictactech_timeline
+  - tictactech_contact
+  - list_puc_events
+  - puzzle_pinnacle_about
+  - puzzle_pinnacle_rules
+  - puzzle_pinnacle_structure
+  - puzzle_pinnacle_timeline
+  - puzzle_pinnacle_contact
+  - icon_of_puc_about
+  - icon_of_puc_rules
+  - icon_of_puc_structure
+  - icon_of_puc_timeline
+  - icon_of_puc_contact
+  - cinebot_about
+  - cinebot_rules
+  - cinebot_structure
+  - cinebot_timeline
+  - cinebot_contact
+  - prompt_and_paint_about
+  - prompt_and_paint_rules
+  - prompt_and_paint_structure
+  - prompt_and_paint_timeline
+  - prompt_and_paint_contact
+  - list_mme_events
+  - metallography_about
+  - metallography_rules
+  - metallography_structure
+  - metallography_timeline
+  - metallography_contact
+  - case_study_about
+  - case_study_rules
+  - case_study_structure
+  - case_study_timeline
+  - case_study_contact
+  - escape_odyssey_about
+  - escape_odyssey_rules
+  - escape_odyssey_structure
+  - escape_odyssey_timeline
+  - escape_odyssey_contact
+  - meta_x_word_about
+  - meta_x_word_rules
+  - meta_x_word_structure
+  - meta_x_word_timeline
+  - meta_x_word_contact
+  - list_mech_events
+  - assemble_disassemble_about
+  - assemble_disassemble_rules
+  - assemble_disassemble_structure
+  - assemble_disassemble_timeline
+  - assemble_disassemble_contact
+  - logo_auction_about
+  - logo_auction_rules
+  - logo_auction_structure
+  - logo_auction_timeline
+  - logo_auction_contact
+  - cadomania_about
+  - cadomania_rules
+  - cadomania_structure
+  - cadomania_timeline
+  - cadomania_contact
+  - mech_craft_about
+  - mech_craft_rules
+  - mech_craft_structure
+  - mech_craft_timeline
+  - mech_craft_contact
+  - list_eee_events
+  - voltage_vault_about
+  - voltage_vault_rules
+  - voltage_vault_structure
+  - voltage_vault_timeline
+  - voltage_vault_contact
+  - unlock_unknown_about
+  - unlock_unknown_rules
+  - unlock_unknown_structure
+  - unlock_unknown_timeline
+  - unlock_unknown_contact
+  - brightest_mind_about
+  - brightest_mind_rules
+  - brightest_mind_structure
+  - brightest_mind_timeline
+  - brightest_mind_contact
+  - energy_odyssey_about
+  - energy_odyssey_rules
+  - energy_odyssey_structure
+  - energy_odyssey_timeline
+  - energy_odyssey_contact
+  - registration_process
+  - registration_payment
+  - event_location
+  - event_dates
+  - event_theme
+  - about_teckzite
+  - teckzite_theme
+  - teckzite_duration
+  - teckzite_event_categories
+  - teckzite_coding_events
+  - teckzite_robotics_events
+  - teckzite_hackathons
+  - teckzite_workshops
+  - teckzite_gaming_events
+  - teckzite_cultural_events
+  - teckzite_guest_speakers
+  - teckzite_metaverse_theme
+  - teckzite_registration
+  - workshop_advanced_materials
+  - workshop_mech_craft
+  - teckzite_workshop_registration
+  - teckzite_workshop_fees
+  - teckzite_workshop_schedule
+  - teckzite_workshop_instructors
+  - teckzite_workshop_contact
+  - inquire_top_referrals
+  - inquire_referral_count
+  - inquire_referral_email
+  - inquire_sponsorship_categories
+  - inquire_digital_media_sponsor
+  - inquire_event_booster
+  - inquire_overseas_education_sponsor
+  - inquire_education_partner
+  - inquire_skill_development_partner
+  - inquire_devops_cloud_partner
+  - inquire_edtech_partner
+  - inquire_workshops_list
+  - inquire_advanced_materials_workshop
+  - inquire_machine_learning_workshop
+  - inquire_sketchup_bim_workshop
+  - inquire_workshop_registration
+  - inquire_workshop_fees
+  - inquire_workshop_schedule
+  - inquire_workshop_contacts
+  - inquire_hackathon_details
+  - inquire_hackathon_perks
+  - inquire_ai_hackathon_details
+  - inquire_robothon_details
+  - inquire_hackathon_rounds
+  - inquire_hackathon_schedule
+  - inquire_hackathon_prize_pool
+  - inquire_hackathon_facilities
+  - inquire_hackathon_collaborators
+  - inquire_hackathon_registration
+  - inquire_hackathon_contact
+  - inquire_web_team
+  - inquire_core_team
+  - inquire_web_team_manager
+  - inquire_frontend_developers
+  - inquire_ui_ux_designers
+  - inquire_app_developer
+  - inquire_fullstack_developers
+  - inquire_backend_developer
+  - inquire_events_marketing
+  - inquire_workshop_project_expo
+  - inquire_promotions_hospitality
+  - inquire_design_technical_support
+  - inquire_cultural_content
+  - inquire_photography_open_events
+  - inquire_disciplinary_team
+  - inquire_megaexpo_registration
+  - inquire_megaexpo_timeline
+  - inquire_megaexpo_judging_criteria
+  - inquire_megaexpo_submission_guidelines
+  - inquire_megaexpo_team_size
+  - inquire_megaexpo_problem_statements
+  - inquire_megaexpo_rounds
+  - inquire_megaexpo_details
+
+
+
+
+# entities:
+#   - event_name
+#   - organizer_name
+#   - coordinator_name
+
+slots:
+  event_name:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: event_name
+
+responses:
+  utter_open_to_all_events:
+    - text: "The Open to All events in Teckzite are:
+              - BIS Quiz
+              - IPL Auction
+              - Free Fire
+              - Envision IAS Test
+              - Squid Zone"
+
+  # utter_event_details:
+  #   - condition:
+  #       - type: slot
+  #         name: event_name
+  #         value: "BIS Quiz"
+  #     text: "BIS Quiz:
+  #            - Team Size: 1
+  #            - Participants will be tested on BIS standards and IS codes in civil engineering."
+  #   - condition:
+  #       - type: slot
+  #         name: event_name
+  #         value: "IPL Auction"
+  #     text: "IPL Auction:
+  #            - Team Size: 3
+  #            - Experience an intense bidding war for virtual players."
+  #   - condition:
+  #       - type: slot
+  #         name: event_name
+  #         value: "Free Fire"
+  #     text: "Free Fire:
+  #            - Team Size: 4
+  #            - Participate in a thrilling battle royale gaming event."
+  #   - condition:
+  #       - type: slot
+  #         name: event_name
+  #         value: "Envision IAS Test"
+  #     text: "Envision IAS Test:
+  #            - Team Size: 1
+  #            - A challenge of knowledge, personality, integrity, and leadership."
+  #   - condition:
+  #       - type: slot
+  #         name: event_name
+  #         value: "Squid Zone"
+  #     text: "Squid Zone:
+  #            - Team Size: 1
+  #            - Participate in thrilling challenges inspired by Squid Game."
+
+  utter_bis_quiz_details:
+    - text: "BIS Quiz:\n - Team Size: 1\n - Participants will be tested on BIS standards and IS codes in civil engineering."
+
+  utter_ipl_auction_details:
+    - text: "IPL Auction:\n - Team Size: 3\n - Experience an intense bidding war for virtual players."
+
+  utter_free_fire_details:
+    - text: "Free Fire:\n - Team Size: 4\n - Participate in a thrilling battle royale gaming event."
+
+  utter_envision_ias_test_details:
+    - text: "Envision IAS Test:\n - Team Size: 1\n - A challenge of knowledge, personality, integrity, and leadership."
+
+  utter_squid_zone_details:
+    - text: "Squid Zone:\n - Team Size: 1\n - Participate in thrilling challenges inspired by Squid Game."
+
+  utter_event_rules:
+    - condition:
+        - type: slot
+          name: event_name
+          value: "BIS Quiz"
+      text: "Rules for BIS Quiz:
+             1. Registration is mandatory.
+             2. No electronic gadgets allowed in the buzzer round.
+             3. Quizmaster's decision is final."
+    - condition:
+        - type: slot
+          name: event_name
+          value: "IPL Auction"
+      text: "Rules for IPL Auction:
+             1. Malpractices lead to disqualification.
+             2. No sharing of answers.
+             3. The organizing committee's decision is final."
+    - condition:
+        - type: slot
+          name: event_name
+          value: "Free Fire"
+      text: "Rules for Free Fire:
+             1. Bring your own mobile with internet.
+             2. No laptops allowed.
+             3. Players must compete in the allotted classroom."
+    - condition:
+        - type: slot
+          name: event_name
+          value: "Envision IAS Test"
+      text: "Rules for Envision IAS Test:
+             1. Any malpractice leads to disqualification.
+             2. Participants must follow updated rules provided by the committee."
+    - condition:
+        - type: slot
+          name: event_name
+          value: "Squid Zone"
+      text: "Rules for Squid Zone:
+             1. Malpractices lead to disqualification.
+             2. No sharing of hints or answers."
+
+  utter_event_structure:
+    - condition:
+        - type: slot
+          name: event_name
+          value: "BIS Quiz"
+      text: "Structure for BIS Quiz:
+             - Round 1: Online MCQ-based quiz via Google Forms.
+             - Round 2: Offline buzzer round based on IS codes."
+    - condition:
+        - type: slot
+          name: event_name
+          value: "IPL Auction"
+      text: "Structure for IPL Auction:
+             - Round 1: Cricket knowledge quiz.
+             - Round 2: Bidding and player auction."
+    - condition:
+        - type: slot
+          name: event_name
+          value: "Free Fire"
+      text: "Structure for Free Fire:
+             - Round 1: Classic mode game, top 3 teams qualify.
+             - Round 2: Classical mode final with two maps."
+    - condition:
+        - type: slot
+          name: event_name
+          value: "Envision IAS Test"
+      text: "Structure for Envision IAS Test:
+             - Round 1: Prelims (MCQ-based test).
+             - Round 2: Mains (Descriptive questions).
+             - Round 3: Interview."
+    - condition:
+        - type: slot
+          name: event_name
+          value: "Squid Zone"
+      text: "Structure for Squid Zone:
+             - Participants compete in games inspired by Squid Game series."
+
+  utter_event_timeline:
+    - condition:
+        - type: slot
+          name: event_name
+          value: "BIS Quiz"
+      text: "Timeline for BIS Quiz: 27-02-2025, 9 AM - 10 AM."
+    - condition:
+        - type: slot
+          name: event_name
+          value: "IPL Auction"
+      text: "Timeline for IPL Auction: Will be announced soon."
+    - condition:
+        - type: slot
+          name: event_name
+          value: "Free Fire"
+      text: "Timeline for Free Fire: Will be announced soon."
+    - condition:
+        - type: slot
+          name: event_name
+          value: "Envision IAS Test"
+      text: "Timeline for Envision IAS Test: Will be announced soon."
+    - condition:
+        - type: slot
+          name: event_name
+          value: "Squid Zone"
+      text: "Timeline for Squid Zone: Will be announced soon."
+
+  utter_event_contact:
+    - condition:
+        - type: slot
+          name: event_name
+          value: "BIS Quiz"
+      text: "Contact for BIS Quiz:
+             - Divya Jyothi: 8247589288
+             - Honey Shaik: 6305058698"
+    - condition:
+        - type: slot
+          name: event_name
+          value: "IPL Auction"
+      text: "Contact for IPL Auction:
+             - Vignesh: 9390839708
+             - Denyusha: 8328410234"
+    - condition:
+        - type: slot
+          name: event_name
+          value: "Free Fire"
+      text: "Contact for Free Fire:
+             - Vignesh: 9390839708
+             - Denyusha: 8328410234"
+    - condition:
+        - type: slot
+          name: event_name
+          value: "Envision IAS Test"
+      text: "Contact for Envision IAS Test:
+             - Vignesh: 9390839708
+             - Denyusha: 8328410234"
+    - condition:
+        - type: slot
+          name: event_name
+          value: "Squid Zone"
+      text: "Contact for Squid Zone:
+             - Vignesh: 9390839708
+             - Denyusha: 8328410234"
+
+  utter_list_chemical_events:
+    - text: "The events for the Chemical branch are: Chem AI Quest, Visionary Young, Alchemy Empire, and Final Key. Let me know which one you’d like details on!"
+
+  utter_chem_ai_quest_info:
+    - text: "Chem AI Quest is a competition that blends technology, creativity, and intellect across three thrilling rounds: spontaneity, meme-based identification, and AI-driven problem-solving."
+
+  utter_chem_ai_quest_rules:
+    - text: "Rules for Chem AI Quest: 1. Only registered students may participate. 2. Participants must arrive 10 minutes before the event. 3. No external papers or electronic gadgets allowed. 4. Malpractice will lead to immediate disqualification."
+
+  utter_chem_ai_quest_structure:
+    - text: "Chem AI Quest consists of three rounds: 1. Round of Spontaneity: Teams list relevant terms quickly. 2. Memes Marathon: Identify figures based on meme sounds. 3. Guess It Guru: Solve industry-related puzzles using AI tools."
+
+  utter_chem_ai_quest_timeline:
+    - text: "Chem AI Quest will be held on 11-03-2025 from 09:00-10:45."
+
+  utter_visionary_young_info:
+    - text: "Visionary Young is a competition where students showcase innovative ideas through poster presentations related to emerging technologies in chemical engineering."
+
+  utter_visionary_young_rules:
+    - text: "Rules: 1. Poster size must be 40’’x 32’’. 2. Text must be within 1000 words. 3. Posters should be readable from 2 meters away. 4. Only UG and PG Chemical Engineering students may participate."
+
+  utter_visionary_young_structure:
+    - text: "Participants must submit an abstract by 09/03/2025. Selected abstracts will be presented on event day, where participants walk the audience through their posters in a 10-minute presentation."
+
+  utter_visionary_young_timeline:
+    - text: "Visionary Young will be held on 11-03-2025 from 11:45-13:00."
+
+  utter_alchemy_empire_info:
+    - text: "Alchemy Empire is a strategic competition where teams participate in an industrial bidding war and case study challenge."
+
+  utter_alchemy_empire_rules:
+    - text: "Rules: 1. Each team must have 2 members. 2. Ethical bidding practices must be followed. 3. The highest bidder wins the industry. 4. Case studies must be presented within the time limit."
+
+  utter_alchemy_empire_structure:
+    - text: "Round 1: Industrial Bid – Teams bid for industries using virtual capital. Round 2: Case Study Challenge – Teams solve industry-related problems and present solutions."
+
+  utter_alchemy_empire_timeline:
+    - text: "Alchemy Empire Round 1 is on 11-03-2025 (11:00-11:40), and Round 2 is on 12-03-2025 (11:45-13:00)."
+
+  utter_final_key_info:
+    - text: "Final Key is an escape room-style event where teams solve puzzles to unlock the final key."
+
+  utter_final_key_rules:
+    - text: "Rules: 1. Think carefully before making a move. 2. Observe surroundings for hidden clues. 3. Avoid using points unless necessary. 4. Using points reduces the final score."
+
+  utter_final_key_structure:
+    - text: "Teams solve interconnected riddles to progress through different rooms. Each solved clue earns points, which can be used for hints but at a cost to the final score."
+
+  utter_final_key_timeline:
+    - text: "Final Key will take place on 12-03-2025 from 09:00-11:30."
+  
+  utter_list_cse_events:
+    - text: "The events for the CSE branch are: AlgoHustle, SQL Escape Room, and TechEnigma. Let me know which one you’d like details on!"
+
+  utter_algohustle_about:
+    - text: "AlgoHustle is a thrilling competition testing Data Structures and Algorithms (DSA) skills with two rounds: a Bingo-based challenge and a high-stakes coding contest on GeeksforGeeks."
+
+  utter_algohustle_rules:
+    - text: |
+        Rules for AlgoHustle:
+        1. Solve the Bingo board in round 1.
+        2. No collaborational help allowed.
+        3. GeeksforGeeks account is mandatory for round 2.
+        4. No mobile phones or AI tools permitted.
+        5. Plagiarism results in disqualification.
+
+  utter_algohustle_structure:
+    - text: |
+        AlgoHustle Structure:
+        Round 1: Bingo Blitz
+        - Solve a 5x5 Bingo board of DSA-related MCQs.
+        - Correct answers earn points; completing rows, columns, or diagonals gives bonuses.
+        - Duration: 1 hour.
+        - Platform: GeeksforGeeks Student Chapter.
+
+        Round 2: DSA Challenge
+        - Solve 3 advanced DSA problems.
+        - Duration: 2 hours.
+        - Platform: GeeksforGeeks Student Chapter.
+
+  utter_algohustle_timeline:
+    - text: |
+        Timeline for AlgoHustle:
+        - Round 1: March 11, 11:45 AM - 12:45 PM
+        - Round 2: March 12, 11:30 AM - 1:30 PM
+
+  utter_algohustle_contact:
+    - text: |
+        Contact details for AlgoHustle:
+        - Siddhartha (ID: N200426) - 9963233038
+        - Vyshnavi (ID: N210118) - 7981070793
+
+  utter_sql_escape_room_about:
+    - text: "SQL Escape Room is a two-round competition where participants apply SQL knowledge to solve queries and unlock database sections."
+
+  utter_sql_escape_room_rules:
+    - text: |
+        Rules for SQL Escape Room:
+        1. Participants must bring their own laptops with SQL tools installed.
+        2. No internet usage unless specified.
+        3. Progress submission is mandatory after each round.
+
+  utter_sql_escape_room_structure:
+    - text: |
+        SQL Escape Room Structure:
+        Round 1: Fun Game
+        - Level 1: Basic DBMS concepts & SQL queries.
+        - Level 2: Scenario-based SQL problem-solving.
+        - Duration: 45 minutes.
+        - Platform: Online Web Portal.
+
+        Round 2: Escaping the Room
+        - Solve SQL challenges to unlock the database.
+        - Duration: 1 hour.
+        - Platform: MySQL Workbench, pgAdmin, etc.
+
+  utter_sql_escape_room_timeline:
+    - text: |
+        Timeline for SQL Escape Room:
+        - Round 1: March 11, 10:30 AM - 11:20 AM
+        - Round 2: March 12, 10:15 AM - 11:15 AM
+
+  utter_sql_escape_room_contact:
+    - text: |
+        Contact details for SQL Escape Room:
+        - Mohan Kumar (ID: N200394) - 6303879861
+        - Madhu Sree (ID: N200806) - 7075099781
+
+  utter_techenigma_about:
+    - text: "TechEnigma is an exciting challenge blending technical skills and puzzle-solving, featuring programming crosswords and multimedia-based quiz rounds."
+
+  utter_techenigma_rules:
+    - text: |
+        Rules for TechEnigma:
+        1. Round 1 involves individual crossword solving.
+        2. Personal laptops are mandatory.
+        3. Round 2 teams will be formed randomly.
+        4. Arrive 15 minutes early.
+        5. No external help allowed.
+        6. Organizers' decisions are final.
+
+  utter_techenigma_structure:
+    - text: |
+        TechEnigma Structure:
+        Round 1: Crossword Puzzle
+        - Solve programming-themed crossword puzzles.
+        - Duration: 1 hour.
+        - Team Size: Individual.
+        - Platform: Online Web Portal.
+
+        Round 2: PictoMania
+        - Level 1: Quiz Round – Answer technical questions.
+        - Level 2: Multimedia Buzzer Round – Identify terms from visual clues.
+        - Duration: 1 hour.
+        - Team Size: 3 (formed by organizers).
+        - Platform: Offline.
+
+  utter_techenigma_timeline:
+    - text: |
+        Timeline for TechEnigma:
+        - Round 1: March 11, 9:15 AM - 10:15 AM
+        - Round 2: March 12, 9:00 AM - 10:00 AM
+
+  utter_techenigma_contact:
+    - text: |
+        Contact details for TechEnigma:
+        - Dileep Kumar D (ID: N200486) - 6303110459
+        - Sai Srujana G (ID: N200141) - 6309814874
+
+  utter_list_civil_events:
+    - text: "The Civil department offers the following events: CAD Maestro, Civivision, and Porous Potential. Let me know if you need details about any specific event."
+
+  utter_cad_maestro_about:
+    - text: "CAD Maestro is a 4-hour competition where participants showcase their AutoCAD skills. The first round involves creating a precise 2D diagram, while the second round requires converting it into a detailed 3D model."
+
+  utter_cad_maestro_rules:
+    - text: "Rules for CAD Maestro:
+      1. Submit the 2D diagram within the given time.
+      2. The plan must meet the given requirements and follow Vaasthu principles.
+      3. The plan should be clear and complete on time.
+      4. Team Size: 1 participant per team.
+      5. All teams must have access to a laptop with the required software.
+      6. No interference with other teams.
+      7. Cheating or misconduct leads to disqualification."
+
+  utter_cad_maestro_structure:
+    - text: "CAD Maestro consists of two rounds:
+      - Round 1: Participants create a 2D diagram based on client requirements.
+      - Round 2: Selected participants generate a 3D model from their 2D plan."
+
+  utter_cad_maestro_timeline:
+    - text: "CAD Maestro is scheduled for 27-02-2025 from 10 AM to 11 AM."
+
+  utter_cad_maestro_contact:
+    - text: "For CAD Maestro, contact:
+      - Organizer: Nagendra (9963527185)
+      - Coordinator: Honey Shaik (6305058698)"
+
+  utter_civivision_about:
+    - text: "Civivision requires participants to prepare and present a PPT with a solution to a given Civil Engineering problem."
+
+  utter_civivision_rules:
+    - text: "Rules for Civivision:
+      1. Submit PPTs within the given time.
+      2. Participants must present their solution and answer the jury's questions."
+
+  utter_civivision_structure:
+    - text: "Participants create and submit a PPT on a given theme and present it on 27th February."
+
+  utter_civivision_timeline:
+    - text: "Civivision is scheduled as follows:
+      - Round 1: 09/03/2025 at 12 PM.
+      - Round 2: 12/03/2025 from 9:30 AM to 10:30 AM."
+
+  utter_civivision_contact:
+    - text: "For Civivision, contact:
+      - Organizer: Lakshman (8498872145)
+      - Coordinator: Honey Shaik (6305058698)"
+
+  utter_porous_potential_about:
+    - text: "Porous Potential challenges teams to design and cast their own porous concrete within the given time while meeting performance conditions."
+
+  utter_porous_potential_rules:
+    - text: "Rules for Porous Potential:
+      1. Teams must have 3-4 members.
+      2. Each team is allowed only one design."
+
+  utter_porous_potential_structure:
+    - text: "Porous Potential event structure:
+      - Teams receive a problem statement.
+      - Teams design, mix, and cast the concrete.
+      - Judges evaluate discharge and strength of the concrete."
+
+  utter_porous_potential_timeline:
+    - text: "Porous Potential is scheduled on 12/03/2025 from 10:30 AM to 12:30 PM."
+
+  utter_porous_potential_contact:
+    - text: "For Porous Potential, contact:
+      - Organizer: Saraswathi (9398245473)
+      - Coordinator: Honey Shaik (6305058698)"
+
+  utter_list_ece_events:
+    - text: "The ECE department hosts the following events: Electrotactix, Crack the Vault, and TicTacTech. Which event would you like more information about?"
+
+  utter_electrotactix_about:
+    - text: "Electro-Tactix is an exciting competition that tests knowledge and practical skills in electronics and circuit building through two rounds. Participants solve a quiz and then engage in a circuit-building challenge."
+
+  utter_electrotactix_rules:
+    - text: "Rules for Electrotactix: 1. No external assistance allowed. 2. Participants are ranked on accuracy and speed. 3. Circuit-building must be completed in the given time. 4. Only provided components can be used."
+
+  utter_electrotactix_structure:
+    - text: "Electrotactix consists of two rounds: Round 1 is a multiple-choice quiz on core ECE topics. Round 2 involves a tendering process where teams secure and solve a circuit-building challenge."
+
+  utter_electrotactix_timeline:
+    - text: "Electrotactix Timeline: Round 1 - 11th March 2025. Round 2 - 12th March 2025."
+
+  utter_electrotactix_contact:
+    - text: "For Electrotactix, contact Chaparapu Dharani (6301006473) or Chandu Bommisetty (9963080599)."
+
+  utter_crack_the_vault_about:
+    - text: "Crack the Vault is a puzzle-solving event where participants solve encrypted puzzles related to core ECE topics to unlock the next challenge."
+
+  utter_crack_the_vault_rules:
+    - text: "Rules for Crack the Vault: 1. Participants must use their own laptops. 2. Required software must be pre-installed. 3. Progress must be submitted before the time limit."
+
+  utter_crack_the_vault_structure:
+    - text: "The event consists of solving 10-15 puzzles on ECE topics. Each puzzle’s solution unlocks an encrypted file leading to the next challenge."
+
+  utter_crack_the_vault_timeline:
+    - text: "Crack the Vault Timeline: Round 1 - 11th March 2025."
+
+  utter_crack_the_vault_contact:
+    - text: "For Crack the Vault, contact P. Praveen Kumar (9014694303) or B. Yagna Naga Varaprasad (8328582308)."
+
+  utter_tictactech_about:
+    - text: "TicTacTech is an Arduino-based circuit-building competition inspired by Tic-Tac-Toe. Participants must solve IoT-based quizzes and build circuits to win."
+
+  utter_tictactech_rules:
+    - text: "Rules for TicTacTech: 1. Only provided Arduino boards and tools can be used. 2. No external assistance allowed. 3. The fastest and most accurate team wins."
+
+  utter_tictactech_structure:
+    - text: "TicTacTech consists of two rounds: Round 1 is a picture-based IoT quiz. Round 2 follows a Tic-Tac-Toe format where teams compete to build circuits based on selected numbers."
+
+  utter_tictactech_timeline:
+    - text: "TicTacTech Timeline: Round 1 - 11th March 2025. Round 2 - 12th March 2025."
+
+  utter_tictactech_contact:
+    - text: "For TicTacTech, contact A. Shanmuga Shruthi (8639412168) or V. Thejesh Varma (7981199143)."
+
+  utter_list_puc_events:
+    - text: "Here are the events for the PUC department: Puzzle Pinnacle, Icon of PUC, CineBot, Prompt and Paint. Let me know if you need details about any specific event."
+  
+  utter_puzzle_pinnacle_about:
+    - text: "Puzzle Pinnacle is a fun game that makes participants think out of the box. Twisted questions make them puzzled and add to the fun! This is an individual event."
+  
+  utter_puzzle_pinnacle_rules:
+    - text: "Rules for Puzzle Pinnacle: \n1. Participants must have at most behavior.\n2. Groups must not help each other.\n3. They must abide by the rules and be on time."
+  
+  utter_puzzle_pinnacle_structure:
+    - text: "Puzzle Pinnacle consists of two rounds: \nRound 1 - A question paper with 20 questions on logical thinking, riddles, real-life maze, and game-related questions. \nRound 2 - 5 levels where participants must complete online puzzles within the given time to progress."
+  
+  utter_puzzle_pinnacle_timeline:
+    - text: "Timeline for Puzzle Pinnacle: \nRound 1: 10:45 AM - 11:15 AM (11th March) \nRound 2: 10:45 AM - 11:15 AM (12th March)"
+  
+  utter_puzzle_pinnacle_contact:
+    - text: "Coordinator: Sireesha Sibbala \nID No: N210413 \nContact: 9182587356"
+  
+  utter_icon_of_puc_about:
+    - text: "Icon of PUC is an event to find the best among PUC students, testing their knowledge across various subjects. This is an individual event."
+  
+  utter_icon_of_puc_rules:
+    - text: "Rules for Icon of PUC: \n1. Students must bring their own belongings.\n2. They must be at the informed venue on time."
+  
+  utter_icon_of_puc_structure:
+    - text: "Icon of PUC consists of three rounds: \nRound 1 - Subject-based questions for PUC1 and PUC2 separately. \nRound 2 - Aptitude and general knowledge questions for all students. \nRound 3 - Interview by faculty members."
+  
+  utter_icon_of_puc_timeline:
+    - text: "Timeline for Icon of PUC: \nRound 1: 9:00 AM - 9:45 AM (11th March) \nRound 2: 11:20 AM - 12:00 PM (11th March) \nRound 3: 12:00 PM - 1:00 PM (12th March)"
+  
+  utter_icon_of_puc_contact:
+    - text: "Coordinator: Thatisetti Sai Chowsika \nID No: N201054 \nContact: 8985368589"
+  
+  utter_cinebot_about:
+    - text: "CineBot is a movie-based event where students showcase their love for cinema and explore storytelling. Team size: 5."
+  
+  utter_cinebot_rules:
+    - text: "Rules for CineBot: \n1. Participants must have at most behavior.\n2. Groups must not help each other.\n3. They must abide by the rules and be on time."
+  
+  utter_cinebot_structure:
+    - text: "CineBot consists of two rounds: \nRound 1 - Questions based on movies in various formats. \nRound 2 - A PPT-based quiz and a storytelling task to determine winners."
+  
+  utter_cinebot_timeline:
+    - text: "Timeline for CineBot: \nRound 1: 10:15 AM - 10:45 AM (11th March) \nRound 2: 9:40 AM - 10:40 AM (12th March)"
+  
+  utter_cinebot_contact:
+    - text: "Coordinator: B. Neeraj \nID No: N220622 \nContact: 7816039944"
+  
+  utter_prompt_and_paint_about:
+    - text: "Prompt and Paint is based on the Prompt Engineering workshop for PUC students. Participants generate AI-based images based on given prompts. This is an individual event."
+  
+  utter_prompt_and_paint_rules:
+    - text: "Rules for Prompt and Paint: \n1. Students must bring their own laptop.\n2. They should abide by the rules and be on time."
+  
+  utter_prompt_and_paint_structure:
+    - text: "Prompt and Paint consists of two rounds: \nRound 1 - Generating an accurate image based on a given prompt. \nRound 2 - Generating a sequence of images to depict a story. Winners are selected based on accuracy and creativity."
+  
+  utter_prompt_and_paint_timeline:
+    - text: "Timeline for Prompt and Paint: \nRound 1: 9:00 PM (10th March) - 5:00 PM (11th March) \nRound 2: 9:00 AM - 9:40 AM (12th March)"
+  
+  utter_prompt_and_paint_contact:
+    - text: "Coordinator: Saraswathi Kundurthi \nID No: N210772 \nContact: 8019660302"
+
+  utter_list_mme_events:
+    - text: "Here are the events in the MME branch: Metallography, Case Study, Escape Odyssey, Meta X Word. Which event do you want details about?"
+
+  utter_metallography_about:
+    - text: "Metallography is an individual lab-based event where students prepare metal samples and analyze their microstructures. This tests key metallurgical skills."
+
+  utter_metallography_rules:
+    - text: "Rules for Metallography: \n- Individual event\n- Open to MME students\n- Question papers provided\n- Metal samples given in Round 2\n- No electronic devices allowed"
+
+  utter_metallography_structure:
+    - text: "Metallography Structure:\nRound 1: Written test on metallurgy (30 min).\nRound 2: Sample preparation and microstructure analysis in a lab (2 hours)."
+
+  utter_metallography_timeline:
+    - text: "Metallography Timeline:\nRound 1: March 11, 9:30 - 10:00 AM.\nRound 2: March 12, 11:00 AM - 1:00 PM."
+
+  utter_metallography_contact:
+    - text: "Contact for Metallography: \nName: K. Ravi Naik\nID: N201032\nPhone: 9959430294"
+
+  utter_case_study_about:
+    - text: "Case Study is a team event where participants analyze industry problems and prepare a case study report, incorporating AI tools."
+
+  utter_case_study_rules:
+    - text: "Rules for Case Study:\n- Team event\n- Open to MME students\n- Question statements displayed on screen\n- Participants must bring a laptop, charger, and LAN cable."
+
+  utter_case_study_structure:
+    - text: "Case Study Structure:\nParticipants analyze industry problems and create a case study report, which may require an explanation. (30 min - 1 hour)"
+
+  utter_case_study_timeline:
+    - text: "Case Study Timeline:\nSingle Round: March 11, 12:00 - 1:00 PM."
+
+  utter_case_study_contact:
+    - text: "Contact for Case Study:\nName: K. Supraja Latha\nID: N200912\nPhone: 7093713071"
+
+  utter_escape_odyssey_about:
+    - text: "Escape Odyssey is a team-based challenge where groups solve puzzles to progress through rooms. The final round is a rapid-fire quiz."
+
+  utter_escape_odyssey_rules:
+    - text: "Rules for Escape Odyssey:\n- Team event (3 members per team)\n- Open to MME students\n- Papers provided for rough work"
+
+  utter_escape_odyssey_structure:
+    - text: "Escape Odyssey Structure:\nRound 1: Teams solve puzzles to move through rooms.\nRound 2: Selected individuals face a rapid-fire quiz."
+
+  utter_escape_odyssey_timeline:
+    - text: "Escape Odyssey Timeline:\nRound 1: March 10, 10:30 - 11:00 AM.\nRound 2: March 11, 11:00 - 11:30 AM."
+
+  utter_escape_odyssey_contact:
+    - text: "Contact for Escape Odyssey:\nName: G. Madhuri\nID: N210840\nPhone: 9553617674"
+
+  utter_meta_x_word_about:
+    - text: "Meta X Word is an individual event where participants solve a metallurgy-based crossword to uncover a hidden metallurgical phenomenon."
+
+  utter_meta_x_word_rules:
+    - text: "Rules for Meta X Word:\n- Open to MME students\n- Solve the crossword to find the hidden phenomenon."
+
+  utter_meta_x_word_structure:
+    - text: "Meta X Word Structure:\nParticipants solve a metallurgy-themed crossword to unlock the meta-clue. (Duration: 1 hour)"
+
+  utter_meta_x_word_timeline:
+    - text: "Meta X Word Timeline:\nTimings will be updated soon."
+
+  utter_meta_x_word_contact:
+    - text: "Contact for Meta X Word:\nName: CH. Yashoda\nID: N181023\nPhone: 8688802918"
+
+  utter_list_mech_events:
+    - text: "Here are the events in the MECH branch:\n1. Assemble and Disassemble\n2. Logo Auction\n3. CADomania\n4. Mech Craft"
+
+  utter_assemble_disassemble_about:
+    - text: "The 'Assemble and Disassemble' event tests participants' technical skills, precision, and understanding of mechanical systems. Teams must disassemble a mechanical assembly and reassemble it within a specified time. Team size: 2."
+
+  utter_assemble_disassemble_rules:
+    - text: "Rules for Assemble and Disassemble:\n1. Round 1: Answer mechanical and technical questions individually.\n2. Time is limited for disassembly and reassembly tasks.\n3. Only provided tools can be used.\n4. Teams are judged based on accuracy."
+
+  utter_assemble_disassemble_structure:
+    - text: "Structure of Assemble and Disassemble:\n- Round 1: Quiz\n- Round 2: Assemble the provided mechanism."
+
+  utter_assemble_disassemble_timeline:
+    - text: "Timeline for Assemble and Disassemble:\nRound 1: 12-03-25, 11:00 AM - 1:00 PM\nRound 2: 12-03-25, 2:00 PM - 4:00 PM"
+
+  utter_assemble_disassemble_contact:
+    - text: "Contact Jathin: 7032486956"
+
+  utter_logo_auction_about:
+    - text: "The 'Logo Auction' event challenges teams to bid on Mechanical engineering-themed logos using a virtual budget. Teams strategize to win valuable logos based on mechanical significance. Team size: 3."
+
+  utter_logo_auction_rules:
+    - text: "Rules for Logo Auction:\n1. Teams of 3 members.\n2. Each team gets a virtual budget for bidding.\n3. Teams must bid strategically within their budget.\n4. Hidden values of logos are revealed post-auction."
+
+  utter_logo_auction_structure:
+    - text: "Structure of Logo Auction:\n- Teams bid on logos in sequential rounds with a virtual budget.\n- No external collaboration is allowed.\n- Logos have hidden values revealed after bidding."
+
+  utter_logo_auction_timeline:
+    - text: "Timeline for Logo Auction:\nDate: 11-03-25, 10:30 AM - 1:30 PM"
+
+  utter_logo_auction_contact:
+    - text: "Contact Harsha: 9581079109"
+
+  utter_cadomania_about:
+    - text: "'CADomania' is a SolidWorks-based competition where participants design functional machine parts using SolidWorks, focusing on precision, innovation, and functionality. Team size: 1."
+
+  utter_cadomania_rules:
+    - text: "Rules for CADomania:\n1. No external help (books, internet, mentors).\n2. No extra time for errors or saving files.\n3. Only SolidWorks can be used.\n4. Participants must follow coordinator instructions."
+
+  utter_cadomania_structure:
+    - text: "Structure of CADomania:\n- Participants design machine parts using SolidWorks and assemble them."
+
+  utter_cadomania_timeline:
+    - text: "Timeline for CADomania:\nDate: 11-03-25, 9:00 AM - 10:30 AM"
+
+  utter_cadomania_contact:
+    - text: "Contact Varun Raj: 7981856885"
+
+  utter_mech_craft_about:
+    - text: "'Mech Craft' is a model-making competition where participants create mechanical workpieces using machining tools. Team size: 2."
+
+  utter_mech_craft_rules:
+    - text: "Rules for Mech Craft:\n1. Participants must maintain discipline.\n2. No extra material or time is provided.\n3. Follow the provided manual for accuracy.\n4. No external help is allowed."
+
+  utter_mech_craft_structure:
+    - text: "Structure of Mech Craft:\n- Single round event focused on precision model-making."
+
+  utter_mech_craft_timeline:
+    - text: "Timeline for Mech Craft:\nDate: 12-03-25, 9:00 AM - 11:00 AM"
+
+  utter_mech_craft_contact:
+    - text: "Contact Divruth: 9542142004"
+
+  utter_list_eee_events:
+    - text: "The EEE events are:
+        1. Voltage Vault
+        2. Unlock The Unknown
+        3. Brightest Mind
+        4. Energy Odyssey"
+
+  utter_voltage_vault_about:
+    - text: "Voltage Vault is an interactive technical event based on Snakes and Ladders, where participants answer Ohm’s Law-based questions to progress on the board."
+
+  utter_voltage_vault_rules:
+    - text: "Rules for Voltage Vault:
+        1. Players roll a dice to determine movement.
+        2. Answer Ohm’s Law-based questions to move forward or backward.
+        3. Special chits add challenges.
+        4. The first player to reach the final spot wins."
+
+  utter_voltage_vault_structure:
+    - text: "Voltage Vault has two rounds: 
+        - Round 1: Sub rounds will be conducted.
+        - Round 2: Winners from sub rounds compete for the final win."
+
+  utter_voltage_vault_timeline:
+    - text: "Voltage Vault takes place on 12-03-25, from 09:00 AM - 01:00 PM and 02:00 PM - 05:00 PM."
+
+  utter_voltage_vault_contact:
+    - text: "For Voltage Vault, contact:
+        - Sk. Kalesha: 8374146867
+        - V. Bharathi: 7569931302"
+
+  utter_unlock_unknown_about:
+    - text: "Unlock The Unknown is an escape-room-style event where teams solve electrical riddles to find the password and escape."
+
+  utter_unlock_unknown_rules:
+    - text: "Rules for Unlock The Unknown:
+        1. Find the password and escape within time.
+        2. Open to all EEE students.
+        3. Shortest escape time wins."
+
+  utter_unlock_unknown_structure:
+    - text: "Teams of 4 solve clues within 10 minutes. The team with the fastest completion wins."
+
+  utter_unlock_unknown_timeline:
+    - text: "Unlock The Unknown is on 11-03-25, from 10:15 AM - 11:45 AM."
+
+  utter_unlock_unknown_contact:
+    - text: "For Unlock The Unknown, contact:
+        - J. Lakshmi Harshitha: 7095159163
+        - D. Navya Vineetha: 8639573085"
+
+  utter_brightest_mind_about:
+    - text: "Brightest Mind challenges participants in circuit design, both virtual and practical, focusing on speed and accuracy."
+
+  utter_brightest_mind_rules:
+    - text: "Rules for Brightest Mind:
+        1. Group event.
+        2. Open to all EEE students.
+        3. Participants must bring their own accessories."
+
+  utter_brightest_mind_structure:
+    - text: "Brightest Mind has two rounds:
+        - Round 1: Logic gates matching and virtual circuit building.
+        - Round 2: Practical circuit completion to light bulbs."
+
+  utter_brightest_mind_timeline:
+    - text: "Brightest Mind takes place:
+        - Round 1: 11-03-25, 08:45 AM - 10:15 AM
+        - Round 2: 12-03-25, 09:00 AM - 10:00 AM"
+
+  utter_brightest_mind_contact:
+    - text: "For Brightest Mind, contact:
+        - D. Harshitha: 8328076413
+        - K. Sree Viraat: 9652900652"
+
+  utter_energy_odyssey_about:
+    - text: "Energy Odyssey enhances knowledge in power systems by solving real-world power distribution problems."
+
+  utter_energy_odyssey_rules:
+    - text: "Rules for Energy Odyssey:
+        1. Group event.
+        2. Open to all EEE students.
+        3. Participants must bring their own accessories."
+
+  utter_energy_odyssey_structure:
+    - text: "Teams analyze a real-world power issue and propose the most efficient solution in 40-50 minutes."
+
+  utter_energy_odyssey_timeline:
+    - text: "Energy Odyssey is scheduled for 11-03-25, from 12:00 PM - 01:00 PM."
+
+  utter_energy_odyssey_contact:
+    - text: "For Energy Odyssey, contact:
+        - J. Ram Sai: 8019469359
+        - C. Kavya: 6303730983"
+  
+  utter_registration_process:
+    - text: |
+        Here’s how you can register for Teckzite:
+        1. Fill in your personal details such as Name, College, Phone Number, College ID, Year, and Branch.
+        2. Enter additional details like State, District, and City. Upload your ID Card and accept the Terms & Conditions.
+        3. Complete the registration by paying ₹250.
+        Follow these steps carefully to complete your registration successfully!
+
+  utter_registration_payment:
+    - text: |
+        The registration fee for Teckzite is ₹250. You need to pay this amount after filling in your details and submitting the registration form.
+        All Online Payment options will be provided at the time of registration.
+        Offline Payment options will be available at the venue.
+
+  utter_event_location:
+    - text: |
+        Teckzite 2025 will be held at RGUKT Nuzvid, Eluru, Andhra Pradesh.
+
+  utter_event_dates:
+    - text: |
+        Teckzite 2025 is scheduled to take place from 10th to 12th March 2025.
+
+  utter_event_theme:
+    - text: |
+        The theme for Teckzite 2025 is "AI" (Artificial Intelligence), focusing on innovation and technology advancements.
+
+  utter_about_teckzite:
+    - text: "Teckzite is a national-level technological event organized by the SDCAC wing of RGUKT Nuzvid. It is South India's largest pageant aimed at fostering innovation, technical excellence, and creativity."
+
+  utter_teckzite_theme:
+    - text: "This year’s theme is **Metaverse** - a virtual reality space for digital interaction. Participants will explore **Virtual Reality (VR) & Augmented Reality (AR)** through workshops, discussions, and competitions."
+
+  utter_teckzite_duration:
+    - text: "Teckzite lasts for 2 days and 3 nights."
+
+  utter_teckzite_event_categories:
+    - text: "Teckzite features various event categories such as:
+              - Coding challenges
+              - Robotics competitions
+              - Circuit designing
+              - Hackathons
+              - Workshops & Seminars
+              - Gaming zones
+              - Cultural performances
+              - Celebrity appearances"
+
+  utter_teckzite_coding_events:
+    - text: "Teckzite hosts multiple coding competitions for enthusiasts to test their problem-solving and algorithmic skills."
+
+  utter_teckzite_robotics_events:
+    - text: "Teckzite includes robotics competitions featuring AI, drone challenges, and robot-building contests."
+
+  utter_teckzite_hackathons:
+    - text: "Participants can join exciting hackathons at Teckzite, solving real-world problems through innovation and teamwork."
+
+  utter_teckzite_workshops:
+    - text: "Teckzite offers hands-on workshops and technical seminars on various cutting-edge technologies."
+
+  utter_teckzite_gaming_events:
+    - text: "Gaming enthusiasts can participate in esports tournaments, including Free Fire and BGMI competitions."
+
+  utter_teckzite_cultural_events:
+    - text: "Teckzite also features cultural events, including dance, music, and celebrity performances."
+
+  utter_teckzite_guest_speakers:
+    - text: "Keynote speakers, industry experts, and special guests will be attending Teckzite to share their insights."
+
+  utter_teckzite_metaverse_theme:
+    - text: "The Metaverse theme at Teckzite brings an immersive digital experience with AR, VR, and futuristic discussions."
+
+  utter_teckzite_registration:
+    - text: "To register for Teckzite, visit the official website and complete the online registration process. Some events may have an entry fee."
+
+
+  utter_workshop_advanced_materials:
+    - text: "National Workshop on Advanced Materials and Process Simulation.
+              - Fee: ₹200
+              - Instructors: Dr. K Guruvidyathri (University of Hyderabad), Dr. Mohan Muralikrishna Gariapati (IIT Patna)
+              - Date: 24th February
+              - Timings: 9:00 AM - 12:30 PM (Morning), 2:00 PM - 5:00 PM (Afternoon)
+              - Department: MME
+              - Contact: Rizwan (9063687604)"
+
+  utter_workshop_mech_craft:
+    - text: "Mech Craft is a precision machining, model-making, and mechanical design event.
+              - Team Size: 2
+              - Fee: ₹200 (₹100 for T2 registered students)
+              - Venue: AB-2, F-1
+              - Timings: 9:00 AM - 5:00 PM
+              - Contacts: SK Rizwan (9063687604), Asritha (6309802534), Sathya Roy (8639457884)
+              - Registration: 🌐 www.teckzite.org"
+
+  utter_teckzite_workshop_registration:
+    - text: "To register for Teckzite workshops, visit the official website: 🌐 www.teckzite.org. Some workshops may have specific registration fees."
+
+  utter_teckzite_workshop_fees:
+    - text: "The workshop fees are:
+              - Advanced Materials and Process Simulation: ₹200
+              - Mech Craft: ₹200 (₹100 for T2 registered students)."
+
+  utter_teckzite_workshop_schedule:
+    - text: "The workshop schedules are as follows:
+              - Advanced Materials and Process Simulation: 24th February, 9:00 AM - 12:30 PM (Morning), 2:00 PM - 5:00 PM (Afternoon)
+              - Mech Craft: 9:00 AM - 5:00 PM."
+
+  utter_teckzite_workshop_instructors:
+    - text: "The instructors for the workshops are:
+              - Advanced Materials and Process Simulation: Dr. K Guruvidyathri (University of Hyderabad), Dr. Mohan Muralikrishna Gariapati (IIT Patna).
+              - Mech Craft: No specific instructor, event-based activity."
+
+  utter_teckzite_workshop_contact:
+    - text: "For workshop-related queries, contact:
+              - Advanced Materials and Process Simulation: Rizwan (9063687604)
+              - Mech Craft: SK Rizwan (9063687604), Asritha (6309802534), Sathya Roy (8639457884)."
+
+
+  utter_inquire_top_referrals:
+    - text: "The top referrals in Teckzite are:
+              1. Amruth - 23 referrals
+              2. Varun Sandesh - 19 referrals
+              3. Danaiah - 10 referrals
+              4. Naga Sai Harsha - Referral count unavailable
+              5. Byrisetti - 6 referrals
+              6. Govardhana Nayudu - 5 referrals
+              7. CHERUGATI VIJAYA - 5 referrals
+              8. Teja Abhinayasri - 4 referrals
+              9. Sruthibhanu - 4 referrals
+              10. Hemeswar - 4 referrals"
+
+  utter_inquire_referral_count:
+    - text: "Here are the referral counts:
+              - Amruth: 23
+              - Varun Sandesh: 19
+              - Danaiah: 10
+              - Naga Sai Harsha: Referral count unavailable
+              - Byrisetti: 6
+              - Govardhana Nayudu: 5
+              - CHERUGATI VIJAYA: 5
+              - Teja Abhinayasri: 4
+              - Sruthibhanu: 4
+              - Hemeswar: 4"
+
+  utter_inquire_referral_email:
+    - text: "Here are the email addresses of the top referrers:
+              - Amruth: n210474@rguktn.ac.in
+              - Varun Sandesh: n200189@rguktn.ac.in
+              - Danaiah: n210906@rguktn.ac.in
+              - Naga Sai Harsha: n200428@rguktn.ac.in
+              - Byrisetti: n210757@rguktn.ac.in
+              - Govardhana Nayudu: n230896@rguktn.ac.in
+              - CHERUGATI VIJAYA: vijayraghava1234@gmail.com
+              - Teja Abhinayasri: n210249@rguktn.ac.in
+              - Sruthibhanu: n210005@rguktn.ac.in
+              - Hemeswar: n210609@rguktn.ac.in"
+
+
+  utter_inquire_sponsorship_categories:
+    - text: "Teckzite sponsorship categories include:
+              - Digital and Media Sponsor: Mee 24 News
+              - Event Booster: BIS
+              - Overseas Education Sponsor: Achyutha Consultancy
+              - Education Partner: ACE Academy
+              - Skill Development Partner: EDYODA
+              - DevOps and Cloud Partner: SR Technologies
+              - EdTech Partner: DIGIT"
+
+  utter_inquire_digital_media_sponsor:
+    - text: "The Digital and Media Sponsor for Teckzite is Mee 24 News."
+
+  utter_inquire_event_booster:
+    - text: "The Event Booster sponsor for Teckzite is BIS."
+
+  utter_inquire_overseas_education_sponsor:
+    - text: "The Overseas Education Sponsor for Teckzite is Achyutha Consultancy."
+
+  utter_inquire_education_partner:
+    - text: "The Education Partner for Teckzite is ACE Academy."
+
+  utter_inquire_skill_development_partner:
+    - text: "The Skill Development Partner for Teckzite is EDYODA."
+
+  utter_inquire_devops_cloud_partner:
+    - text: "The DevOps and Cloud Partner for Teckzite is SR Technologies."
+
+  utter_inquire_edtech_partner:
+    - text: "The EdTech Partner for Teckzite is DIGIT."
+
+
+  utter_inquire_workshops_list:
+    - text: "Teckzite Workshops:
+              1. Advanced Materials and Process Simulation
+              2. Machine Learning: Music Separation & Speech Enhancement
+              3. SketchUp BIM: Master the Future of Design"
+
+  utter_inquire_advanced_materials_workshop:
+    - text: "Advanced Materials and Process Simulation Workshop:
+              - Description: \"Innovate. Simulate. Advance.\"
+              - Speakers: Dr. K. Guruvudyathri (University of Hyderabad), Dr. Mohan Muralikrishna Garlapati (IIT Patna)
+              - Date: 24th February
+              - Time: 9:00 AM - 12:30 PM (Morning), 2:00 PM - 5:00 PM (Afternoon)
+              - Department: MME
+              - Venue: AB-2, F-1
+              - Fee: ₹200 for non-TZ registered students, ₹100 for TZ registered students
+              - Registration: 🌐 www.teckzite.org
+              - Contact: SK Rizwan - 9063687604"
+
+  utter_inquire_machine_learning_workshop:
+    - text: "Machine Learning: Music Separation & Speech Enhancement Workshop:
+              - Topics Covered:
+                ✅ Blind Source Separation using NMF (Music Remixing, Speech Enhancement)
+                ✅ U-Net Neural Network for Speech Enhancement
+              - Speaker: Dr. Sunny Dayal (Professor, VIT-AP)
+              - Date: 1st March
+              - Time: 9:00 AM - 12:00 PM (Morning), 2:00 PM - 5:00 PM (Afternoon)
+              - Department: ECE
+              - Venue: AB-2, T-4
+              - Fee: ₹200 for non-TZ registered students, ₹100 for TZ registered students
+              - Registration: 🌐 www.teckzite.org
+              - Contact: SK Rizwan - 9063687604, Asritha - 6309802534"
+
+  utter_inquire_sketchup_bim_workshop:
+    - text: "SketchUp BIM: Master the Future of Design Workshop:
+              - Description: Learn SketchUp & BIM for smarter civil engineering
+              - Instructor: Neeharika Yarramsetti (Senior BIM Engineer)
+              - Date: 1st March 2025
+              - Time: 9:00 AM - 12:00 PM (Morning), 2:00 PM - 5:00 PM (Afternoon)
+              - Department: Civil
+              - Venue: AB-2, F-1
+              - Fee: ₹200 for non-TZ registered students, ₹100 for TZ registered students
+              - Registration: 🌐 www.teckzite.org
+              - Contact: SK Rizwan - 9063687604, Sathya Roy - 8639457884, Asritha - 6309802534"
+
+  utter_inquire_workshop_registration:
+    - text: "To register for any workshop, visit 🌐 www.teckzite.org and complete the registration process."
+
+  utter_inquire_workshop_fees:
+    - text: "Workshop Fees:
+              - Advanced Materials and Process Simulation: ₹200 (₹100 for TZ registered students)
+              - Machine Learning: Music Separation & Speech Enhancement: ₹200 (₹100 for TZ registered students)
+              - SketchUp BIM: Master the Future of Design: ₹200 (₹100 for TZ registered students)"
+
+  utter_inquire_workshop_schedule:
+    - text: "Workshop Schedule:
+              - Advanced Materials and Process Simulation: 24th February
+              - Machine Learning: Music Separation & Speech Enhancement: 1st March
+              - SketchUp BIM: Master the Future of Design: 1st March 2025"
+
+  utter_inquire_workshop_contacts:
+    - text: "Workshop Contact Details:
+              - Advanced Materials and Process Simulation: SK Rizwan - 9063687604
+              - Machine Learning: Music Separation & Speech Enhancement: SK Rizwan - 9063687604, Asritha - 6309802534
+              - SketchUp BIM: Master the Future of Design: SK Rizwan - 9063687604, Sathya Roy - 8639457884, Asritha - 6309802534"
+
+  utter_inquire_hackathon_details:
+    - text: "Teckzite'25 Hackathons bring together innovative minds to solve real-world challenges. Tracks include AI Hackathon and Robothon. Participants get expert mentorship, industry exposure, and networking opportunities."
+
+  utter_inquire_hackathon_perks:
+    - text: "Perks of participating in the hackathon include:
+              - Expert mentorship
+              - Industry exposure
+              - National-level competition
+              - Exciting prizes
+              - Networking opportunities"
+
+  utter_inquire_ai_hackathon_details:
+    - text: "AI Hackathon Themes:
+              1. Building AI Agents (e.g., AI Receptionist, Virtual Health Assistant, Dynamic Pricing Optimizer)
+              2. AI/ML Startup Idea Development"
+
+  utter_inquire_robothon_details:
+    - text: "Robothon involves solving robotics & IoT problem statements with robotic kits. It includes:
+              - Round 1: Basics of Robotics & IoT quiz
+              - Round 2: Prototype Development and Final Presentation"
+
+  utter_inquire_hackathon_rounds:
+    - text: "Hackathon Rounds:
+              - AI Hackathon: Round 1 (Abstract Submission), Round 2 (Prototype & Presentation)
+              - Robothon: Round 1 (Robotics Quiz), Round 2 (Problem-solving using Robotic Kits)"
+
+  utter_inquire_hackathon_schedule:
+    - text: "Hackathon Timeline:
+              - Day 1: Check-in at 9:00 AM, Hackathon begins at 2:30 PM, Coding starts at 4:30 PM.
+              - Day 2: Coding resumes at 8:00 AM, final presentation by 2:00 PM."
+
+  utter_inquire_hackathon_prize_pool:
+    - text: "Total Prize Pool: ₹30,000. Top performers receive additional support & opportunities."
+
+  utter_inquire_hackathon_facilities:
+    - text: "Facilities for Hackathon Participants:
+              - Free Accommodation (within campus)
+              - Food Accessibility (meals available on campus)"
+
+  utter_inquire_hackathon_collaborators:
+    - text: "Hackathon Collaborators:
+              - AI Partners: Amotion AI, AISPIRE
+              - Other industry leaders supporting the event"
+
+  utter_inquire_hackathon_registration:
+    - text: "To register for the hackathon, visit 🌐 www.teckzite.org."
+
+  utter_inquire_hackathon_contact:
+    - text: "For queries, contact:
+              - AI Hackathon: K V Abhinash Kumar (+91 63030 81215, n200202@rguktn.ac.in), Ritvik Bagati (+91 94916 05635, n200411@rguktn.ac.in)
+              - Robothon: Srinivas B (+91 90630 46555, n200328@rguktn.ac.in)"
+
+  utter_inquire_web_team:
+    - text: |
+        The Web Team consists of various roles:
+        - **Manager:** Y. Siddartha
+        - **Coordinators:** Shiva, Sribabu Mandraju, Yasvanth
+        - **Frontend Developers:** Dharaneeswar Reddy, Sireesha Sibbala, Bindu Sree, Rakesh
+        - **Web Designers:** Aswini Kodati
+        - **UI/UX Designers:** Nakshatra Yeluri, Akhil, Rapalu Sravani
+        - **App Developer:** MSSS Krishna
+        - **Full Stack Developers:** N. Viswadatta, Lavanya Chinta, K. Pavithra, A. Yashwanth Kumar, Adnan Sami, Chandu Chintalapudi, Santhosh
+        - **Backend Developer:** Viswani Danthu
+
+  utter_inquire_core_team:
+    - text: |
+        The Core Team consists of:
+        - **Leadership:**
+          - Student Convenor: K. Krishna Kireeti
+          - Student Co-Convenor: U. Vijaya Krishna
+          - Student Treasurer: T. Phanindra
+        - **Events & Marketing:** G. Sai Vineesha, K. V. Abhinesh Kumar, Sk. Rizwan
+        - **Workshops & Project Expo:** N. Sreekar, V. Asritha, B. Rithvik, B. Veera Manikanta Reddy
+        - **Promotions & Hospitality:** Ch. Jyothirmai, V. Bhavya Sri, L. Madhan, P. Lakshmi Prasanna, CH. Siva Durga
+        - **Design & Technical Support:** M. Satya Roy, V. Grace Shyni, S. Subhash, M. Subbarao, G. S. B. M Padmavathi, P. Tarun
+        - **Cultural & Content Creation:** J. Charani, I. S. L Narasimha, B. Anirudh, C. Nagalakshmi, C. Rohith Kumar
+        - **Photography & Open Events:** M. Suresh, D. Denyusha, Y. Vignesh
+        - **Web & App Team:** Y. Siddartha, G. Shiva
+        - **Disciplinary Coordinators:** J. Abhiram, M. Ashmitha
+
+  utter_inquire_web_team_manager:
+    - text: "The Web Team Manager is Y. Siddartha."
+
+  utter_inquire_frontend_developers:
+    - text: "Frontend Developers: Dharaneeswar Reddy, Sireesha Sibbala, Bindu Sree, Rakesh."
+
+  utter_inquire_ui_ux_designers:
+    - text: "UI/UX Designers: Nakshatra Yeluri, Akhil, Rapalu Sravani."
+
+  utter_inquire_backend_developer:
+    - text: "The Backend Developer is Viswani Danthu."
+
+  utter_inquire_app_developer:
+    - text: "The App Developer is MSSS Krishna."
+
+  utter_inquire_fullstack_developers:
+    - text: |
+        Full Stack Developers:
+        - N. Viswadatta
+        - Lavanya Chinta
+        - K. Pavithra
+        - A. Yashwanth Kumar
+        - Adnan Sami
+        - Chandu Chintalapudi
+        - Santhosh
+
+  utter_inquire_events_marketing:
+    - text: "Events & Marketing Coordinators: G. Sai Vineesha, K. V. Abhinesh Kumar, Sk. Rizwan."
+
+  utter_inquire_workshop_project_expo:
+    - text: "Workshops & Project Expo Coordinators: N. Sreekar, V. Asritha, B. Rithvik, B. Veera Manikanta Reddy."
+
+  utter_inquire_promotions_hospitality:
+    - text: "Promotions & Hospitality Coordinators: Ch. Jyothirmai, V. Bhavya Sri, L. Madhan, P. Lakshmi Prasanna, CH. Siva Durga."
+
+  utter_inquire_design_technical_support:
+    - text: "Design & Technical Support: M. Satya Roy, V. Grace Shyni, S. Subhash, M. Subbarao, G. S. B. M Padmavathi, P. Tarun."
+
+  utter_inquire_cultural_content:
+    - text: "Cultural & Content Creation: J. Charani, I. S. L Narasimha, B. Anirudh, C. Nagalakshmi, C. Rohith Kumar."
+
+  utter_inquire_photography_open_events:
+    - text: "Photography & Open Events: M. Suresh, D. Denyusha, Y. Vignesh."
+
+  utter_inquire_disciplinary_team:
+    - text: "Disciplinary Coordinators: J. Abhiram, M. Ashmitha."
+
+  utter_megaexpo_registration:
+    - text: |
+        **Registration:** Students must register for **Teckzite'25** to participate in MegaExpo'25.
+
+  utter_megaexpo_timeline:
+    - text: |
+        📅 **MegaExpo'25 Schedule:**
+        | Event | Date |
+        |------------------------------|---------------|
+        | 📢 **Event Announcement** | Jan 24, 2025 |
+        | 📥 **Abstract Submission** | Feb 2, 2025 |
+        | 📜 **Shortlisted Teams Announced** | Feb 3, 2025 |
+        | 🔨 **Project Development** | Feb 3 - Feb 23, 2025 |
+        | 📤 **Prototype Submission** | Feb 24, 2025 |
+        | 🎤 **Expo & Evaluation** | Feb 26 - Feb 27, 2025 |
+
+  utter_megaexpo_judging_criteria:
+    - text: |
+        📝 **Evaluation Criteria:**
+        ✔ **Creativity**
+        ✔ **Implementation**
+        ✔ **Real-world Impact**
+
+  utter_inquire_megaexpo_submission_guidelines:
+    - text: |
+        📌 **Round 1: Project Submission & Screening**
+        - **Report Format:** Max **15 pages** (PDF format)
+        - **Must Include:**
+          - Methodology used
+          - Component specifications
+          - Project number (e.g., Project-1, Project-2)
+        - **Student Innovation Submissions:** Submit in **PPT format**, including:
+          - **Title, Objective, Methodology, Novelty & Outcomes**
+          - **Market Feasibility & Budget Estimation**
+
+  utter_megaexpo_team_size:
+    - text: |
+        **Team Size:** Minimum **2 students**, Maximum **5 students**.
+
+  utter_megaexpo_problem_statements:
+    - text: |
+        🚀 Below are the **problem statements** for MegaExpo'25:
+        1. **Autonomous Navigation of Drone Through a Narrow Path**
+        2. **Autonomous Legged Robot for Climbing Stairs**
+        3. **Mobile Robot for Foggy Environments**
+        4. **Crop Surveillance Using Mobile Robot**
+        5. **Wildlife-Friendly Animal Avoidance System**
+        6. **Identification of Crop & Crop Health Using Drone**
+        7. **Innovative Power Generation Techniques**
+        8. **AI Security Surveillance System**
+        9. **Deepfake Content Identification System**
+        10. **Student Innovation (Open Category)**
+
+  utter_inquire_megaexpo_rounds:
+    - text: |
+        The MegaExpo'25 consists of two rounds:
+        1. **Round 1:** Project Submission & Screening
+        2. **Round 2:** Project Expo Presentation
+    
+  utter_inquire_megaexpo_details:
+    - text: |
+        MegaExpo'25 is a **national-level innovation expo** at RGUKT Nuzvid, supported by the **NIDI Scheme, Ministry of Education, Govt. of India**. It provides a platform for students to showcase projects in **technology, robotics, AI, and sustainable energy**.
+
+
+
+
+
+actions:
+  - action_default_fallback
+  
+entities:
+- event_rules
+- selection_criteria
+- round_date
+- round_number
+- image
+- team_role
+- duration
+- event_time
+- points
+- rule
+- consequence
+- student_type
+- topic
+- size
+- game_mode
+- company_name
+- event_description
+- font_sizes
+- platform
+- student_level
+- contact_person
+- product_name
+- word_count
+- gaming_mode
+- event_name
+- founder_name
+- organizer_phone
+- organizer_name
+- rule_number
+- font_types
+- coordinator_name
+- coordinator
+- number
+- coordinator_phone
+- time_limit
+- meme_sound
+- role
+- date
+- team_placement
+- participation_requirements
+- coordinator_role
+- person
+- email
+- reading_distance
+- event_category
+- time
+- team_name
+- event_date
+- team_size
+- contact_name
+- reporting_time
+- software
+- problem_statement
+- organiser
+- round_type
+- tool_name
+- orientation
+- tool
+- word_limit
+- game_name
+- participant_id
+- round_name
+- event_stage
+- round
+- contact_phone
+- phone_number
+- contact_id
+- domain
+- industry
+- team
+- timeline
+- contact_number
+- question
+- registration_status
+- tools
+# slots: {}
