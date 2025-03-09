@@ -1,18 +1,3 @@
-rasa
-rasa-sdk
-ruamel.yaml
-aiohttp
-multidict
-attr
-yarl
-pymongo
-google-generativeai
-schedule
-pytz
-requests
-flask
-gunicorn
-idna
 # Core Rasa Dependencies
 rasa
 rasa-sdk
@@ -41,10 +26,6 @@ schedule
 # Timezone Handling
 pytz
 
-# Email & SMTP Handling
-smtplib
-email-validator
-
 # Web Frameworks for API (if using Flask/FastAPI)
 flask
 flask-cors
@@ -65,5 +46,3 @@ typing-extensions
 setuptools
 wheel
 pip
-
-propcache
