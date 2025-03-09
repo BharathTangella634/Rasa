@@ -12,3 +12,4 @@ pytz
 requests
 flask
 gunicorn
+idna
