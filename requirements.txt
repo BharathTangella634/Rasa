@@ -13,3 +13,55 @@ requests
 flask
 gunicorn
 idna
+# Core Rasa Dependencies
+rasa
+rasa-sdk
+
+# Required for Rasa & Async HTTP Requests
+aiohttp
+multidict
+yarl
+attr
+propcache
+async_timeout
+chardet
+
+# YAML Parsing (Required for Rasa)
+ruamel.yaml
+
+# MongoDB Connection
+pymongo
+
+# Google Gemini AI Integration
+google-generativeai
+
+# Task Scheduling
+schedule
+
+# Timezone Handling
+pytz
+
+# Email & SMTP Handling
+smtplib
+email-validator
+
+# Web Frameworks for API (if using Flask/FastAPI)
+flask
+flask-cors
+fastapi
+uvicorn
+
+# WSGI Server for Deployment
+gunicorn
+
+# Common Utility Libraries
+requests
+idna
+certifi
+urllib3
+typing-extensions
+
+# Dependency Management
+setuptools
+wheel
+pip
