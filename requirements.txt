@@ -65,3 +65,5 @@ typing-extensions
 setuptools
 wheel
 pip
+
+propcache
