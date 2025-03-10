@@ -10,6 +10,31 @@
 #     plan: free
 #     region: oregon
 
+# services:
+#   - name: rasa
+#     type: web
+#     runtime: python
+#     envVars:
+#       - key: PYTHON_VERSION
+#         value: 3.9
+#     buildCommand: pip install -r requirements.txt
+#     startCommand: rasa run --enable-api --cors "*" --port $PORT
+#     plan: free
+#     region: oregon
+#     port: $PORT  # Ensure Render binds to the correct port
+
+#   - name: rasa-action-server
+#     type: web
+#     runtime: python
+#     envVars:
+#       - key: PYTHON_VERSION
+#         value: 3.9
+#     buildCommand: pip install -r requirements.txt
+#     startCommand: rasa run actions --port 5055
+#     plan: free
+#     region: oregon
+#     port: 5055  # Action server should listen on a different port
+
 services:
   - name: rasa
     type: web
@@ -21,17 +46,4 @@ services:
     startCommand: rasa run --enable-api --cors "*" --port $PORT
     plan: free
     region: oregon
-    port: $PORT  # Ensure Render binds to the correct port
-
-  - name: rasa-action-server
-    type: web
-    runtime: python
-    envVars:
-      - key: PYTHON_VERSION
-        value: 3.9
-    buildCommand: pip install -r requirements.txt
-    startCommand: rasa run actions --port 5055
-    plan: free
-    region: oregon
-    port: 5055  # Action server should listen on a different port
-
+    port: $PORT
