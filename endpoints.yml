@@ -14,7 +14,7 @@ action_endpoint:
   url: "https://rasa-9.onrender.com/webhook"
 
 model:
-  path: "models\20250309-115825-mode-caulk.tar.gz"
+  path: "models/20250309-115825-mode-caulk.tar.gz"
 
 
 
